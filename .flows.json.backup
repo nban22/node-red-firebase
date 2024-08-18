@@ -1,0 +1,2922 @@
+[
+    {
+        "id": "f8ebeef9c1111f1b",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a29cf0664c167293",
+        "type": "tab",
+        "label": "Template Tests",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9b89b6b39d27fee0",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2b582d55ee20f02c",
+            "7ff327239d12a45b",
+            "8bf09d2714939881",
+            "e736e94f6afa92a0"
+        ],
+        "x": 134,
+        "y": 139,
+        "w": 532,
+        "h": 142
+    },
+    {
+        "id": "3520ec35f382b446",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0f51efd3bef3db23",
+            "3c34a2b9bdfcea16",
+            "9f4ab41125ca7829",
+            "f965615839a86ff9"
+        ],
+        "x": 134,
+        "y": 659,
+        "w": 692,
+        "h": 142
+    },
+    {
+        "id": "5313a101730c2ffe",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "01a968f4eeb040a8",
+            "339b774a46aef51c",
+            "eaca73f38a2d0223",
+            "4e9b5483be7dbe26",
+            "1defe0bf82b4b6d5",
+            "e5bae294ff368a81",
+            "020f16057c208895",
+            "d209717b852b4981",
+            "d4b35b586c549705",
+            "02ee6a4d331d2ae2",
+            "ac5d4759da7a4673",
+            "7d416e37c1cff1e0"
+        ],
+        "x": 134,
+        "y": 339,
+        "w": 1452,
+        "h": 262
+    },
+    {
+        "id": "5fa0ebb81a1ef25f",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "cc0afe393157c645",
+            "dae0cc9056b967d6",
+            "d7b6ad45c754890a",
+            "98ebbdfe25244e60",
+            "743059b29ce03609",
+            "c355b49e7cd2f7eb",
+            "901accf4ea9847a9",
+            "89895093d2f185a7",
+            "65db88b28da56982",
+            "df846795b38ca423",
+            "53636aa05e92ed73",
+            "16881c2f2b0aad64"
+        ],
+        "x": 154,
+        "y": 879,
+        "w": 1412,
+        "h": 262
+    },
+    {
+        "id": "5c604d84a3eb08a8",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1d557b6c90791027",
+            "6b5acdbead53e043",
+            "a86a314fe73c881b",
+            "9b820593bef13348",
+            "1403263fdcad817d",
+            "bd60ab234ede7a44",
+            "0275261c3e6dcd22",
+            "abfbc740d2e8972e",
+            "6d6dc84f5378862c",
+            "cf6dcaa6cff70faf",
+            "96fd063cbb4b571e",
+            "be99707bd9085075",
+            "099c0f9a1f4d6a2f",
+            "5d8070b403613ac9",
+            "f96daf9645607b16"
+        ],
+        "x": 54,
+        "y": 1179,
+        "w": 1312,
+        "h": 242
+    },
+    {
+        "id": "bff3195c456d9d0f",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "137e39a485ee7204",
+            "3cd32072fbc5ea55",
+            "f067c6e90fa75e0a",
+            "42f4507557a4e89f"
+        ],
+        "x": 94,
+        "y": 1499,
+        "w": 772,
+        "h": 82
+    },
+    {
+        "id": "828bd4a1deb18611",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b5658580f86b75dc",
+            "3e03e6b198c65cc5",
+            "13044f9730a4d76e",
+            "e09c79bd0c0acc70",
+            "0aa651d7105e0019",
+            "01ee62ab4418539a",
+            "6e365085405edd56",
+            "adc2c6c2b382a995",
+            "e362b41594eb3b9c",
+            "5a6dbe74d1a16cd2",
+            "973a4c9ea6371475",
+            "43dc6b5b6446f728",
+            "df27dc7ad9038c84",
+            "0f61c87ddcba021e",
+            "c1229444a0fe5751",
+            "16cc9aac6f20b967",
+            "1b5fcb69e818a4a0",
+            "f9f116f25d2361a8"
+        ],
+        "x": -6,
+        "y": 2439,
+        "w": 1432,
+        "h": 362
+    },
+    {
+        "id": "182e2555c58d9350",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "80f0a6d7ff13e8e1",
+            "77c1f7918456b78b",
+            "da4231abc30cf933",
+            "44b233cd769f7d3e",
+            "3ed584a5ac553e9e",
+            "c2d5c5b0fea15e06",
+            "3f7d87a451bc7396",
+            "1da0615f8d31a62d",
+            "1c08bec20379386b",
+            "4d74be97289be349",
+            "9828a1aa598f93c1",
+            "d12611326055b2f5",
+            "0176b30d3e5a073f",
+            "119cc61c77683d0c"
+        ],
+        "x": 174,
+        "y": 1959,
+        "w": 1512,
+        "h": 202
+    },
+    {
+        "id": "8c6fb0fc02b78997",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "47e2d85031aadeb4",
+            "dabd522bbb02a7a8",
+            "2ecf9e1178ddb6f1",
+            "d954d1f93a541d9c",
+            "12cb4be0faad6c8c",
+            "e12f1d69151325c2",
+            "b4f9edda9934c4b4",
+            "efc1333bc59ba153",
+            "125ca7b148f643d9",
+            "6a9e3ed5216c9e2e",
+            "09a241e435a3b0a3",
+            "a77bb034be993fb9",
+            "ff6738592e867531",
+            "c8f1f11f88cc40a6",
+            "5a7b0edcf997d9eb"
+        ],
+        "x": 94,
+        "y": 1619,
+        "w": 1202,
+        "h": 302
+    },
+    {
+        "id": "4d6f077bf750ed2f",
+        "type": "firebase config",
+        "firebaseurl": "node-red-a7671-default-rtdb",
+        "loginType": "none"
+    },
+    {
+        "id": "c312862d5d82aacb",
+        "type": "websocket-listener",
+        "path": "/ws/temp",
+        "wholemsg": "false"
+    },
+    {
+        "id": "2b582d55ee20f02c",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "9b89b6b39d27fee0",
+        "name": "",
+        "url": "/signup",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 180,
+        "wires": [
+            [
+                "7ff327239d12a45b"
+            ]
+        ]
+    },
+    {
+        "id": "7ff327239d12a45b",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "9b89b6b39d27fee0",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"./index.css\" media=\"all\">\n    <script defer src=\"./index.js\">\n    </script>\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n\n        <div class=\"panel\">\n            <a class=\"login-btn\" href=\"../login\">Đăng nhập</a>\n            <a class=\"signup-btn\" href=\"../signup\">Đăng ký</a>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container\">\n            <span class=\"title\">Đăng ký</span>\n            <span class=\"title-logo\">Chiếc hộp an toàn</span>\n            <form action=\"#\" id=\"signupForm\" method=\"post\">\n                <input type=\"text\" name=\"username\" id=\"username\" placeholder=\"tên người dùng\" autocomplete=\"current-password\">\n                <input type=\"email\" name=\"email\" id=\"email\" placeholder=\"email\" autocomplete=\"current-password\">\n                <input type=\"password\" name=\"password\" id=\"password\" placeholder=\"mật khẩu\" autocomplete=\"current-password\">\n                <input type=\"password\" name=\"passwordVerify\" id=\"passwordVerify\" placeholder=\"nhập lại mật khẩu\" autocomplete=\"current-password\">\n                <button type=\"submit\">Gửi</button>\n                <h4 id=\"informError\">{{payload.message}}</h4>\n            </form>\n            <span class=\"current-date\">2024.7.23</span>\n        </div>\n    </div>\n\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n\n</body>\n\n</html>",
+        "output": "str",
+        "x": 420,
+        "y": 180,
+        "wires": [
+            [
+                "8bf09d2714939881"
+            ]
+        ]
+    },
+    {
+        "id": "8bf09d2714939881",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "9b89b6b39d27fee0",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "01a968f4eeb040a8",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "",
+        "url": "signup",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 500,
+        "wires": [
+            [
+                "eaca73f38a2d0223"
+            ]
+        ]
+    },
+    {
+        "id": "339b774a46aef51c",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "users.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "users",
+        "repeatifnull": true,
+        "eventType": "value",
+        "queries": [],
+        "x": 610,
+        "y": 500,
+        "wires": [
+            [
+                "1defe0bf82b4b6d5"
+            ]
+        ]
+    },
+    {
+        "id": "eaca73f38a2d0223",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "info",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 500,
+        "wires": [
+            [
+                "339b774a46aef51c",
+                "4e9b5483be7dbe26"
+            ]
+        ]
+    },
+    {
+        "id": "4e9b5483be7dbe26",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "1defe0bf82b4b6d5",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "function 1",
+        "func": "if (msg.payload == null)\n    msg.payload = {error: 'db chua co user nao'};\nconst username = msg.info.username;\nconst users = msg.payload;\nconst user = Object.values(users).find((value) => {\n    return value.username === username;\n})\nif (user === undefined) {\n    const timestamp = Date.now().toString(36); \n    const randomString = Math.random().toString(36).slice(2, 10);\n    msg.payload = {\n        \"success\": true,\n        \"message\": \"Tài khoản được tạo thành công\",\n        \"userId\": timestamp + randomString,\n        \"code\": 201\n    }\n} else {\n    msg.payload = {\n        \"success\": false,\n        \"message\": \"Tên người dùng đã tồn tại\",\n        \"code\": 409\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 500,
+        "wires": [
+            [
+                "4e9b5483be7dbe26",
+                "e5bae294ff368a81"
+            ]
+        ]
+    },
+    {
+        "id": "e5bae294ff368a81",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "",
+        "property": "payload.code",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "201",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "409",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 930,
+        "y": 500,
+        "wires": [
+            [
+                "02ee6a4d331d2ae2"
+            ],
+            [
+                "d4b35b586c549705"
+            ]
+        ]
+    },
+    {
+        "id": "0f51efd3bef3db23",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "3520ec35f382b446",
+        "name": "",
+        "url": "login",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 700,
+        "wires": [
+            [
+                "3c34a2b9bdfcea16"
+            ]
+        ]
+    },
+    {
+        "id": "3c34a2b9bdfcea16",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "3520ec35f382b446",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"./index.css\" media=\"all\">\n    <script defer src=\"./index.js\">\n    </script>\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n\n        <div class=\"panel\">\n            <a class=\"login-btn\" href=\"../login\">Đăng nhập</a>\n            <a class=\"signup-btn\" href=\"../signup\">Đăng ký</a>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container\">\n            <span class=\"title\">Đăng nhập</span>\n            <span class=\"title-logo\">Chiếc hộp an toàn</span>\n            <form id=\"loginForm\" method=\"POST\" name=\"loginForm\">\n                <input type=\"text\" name=\"username\" id=\"username\" placeholder=\"tên người dùng\" autocomplete=\"current-password\">\n                <input type=\"password\" name=\"password\" id=\"password\" placeholder=\"mật khẩu\" autocomplete=\"current-password\">\n                <button type=\"submit\">Gửi</button>\n                <h4 id=\"informError\">{{payload.message}}</h4>\n            </form>\n            <span class=\"current-date\">2024.7.23</span>\n        </div>\n    </div>\n    <script>\n        if ({{payload?.success}}) {\n            window.aleart(\"Đăng ký thành công\")\n        }\n    </script>\n</body>\n\n</html>",
+        "output": "str",
+        "x": 520,
+        "y": 700,
+        "wires": [
+            [
+                "9f4ab41125ca7829"
+            ]
+        ]
+    },
+    {
+        "id": "9f4ab41125ca7829",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "3520ec35f382b446",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 740,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "cc0afe393157c645",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "",
+        "url": "login",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 250,
+        "y": 1020,
+        "wires": [
+            [
+                "d7b6ad45c754890a"
+            ]
+        ]
+    },
+    {
+        "id": "020f16057c208895",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "Redirect to /login",
+        "rules": [
+            {
+                "t": "set",
+                "p": "statusCode",
+                "pt": "msg",
+                "to": "302",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.location",
+                "pt": "msg",
+                "to": "/login",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 420,
+        "wires": [
+            [
+                "d209717b852b4981",
+                "ac5d4759da7a4673"
+            ]
+        ]
+    },
+    {
+        "id": "d209717b852b4981",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1470,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "d4b35b586c549705",
+        "type": "link out",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "e736e94f6afa92a0"
+        ],
+        "x": 1085,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "e736e94f6afa92a0",
+        "type": "link in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "9b89b6b39d27fee0",
+        "name": "link in 1",
+        "links": [
+            "d4b35b586c549705"
+        ],
+        "x": 265,
+        "y": 240,
+        "wires": [
+            [
+                "7ff327239d12a45b"
+            ]
+        ]
+    },
+    {
+        "id": "02ee6a4d331d2ae2",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "function 2",
+        "func": "const userId = msg.payload.userId;\nconst username = msg.info.username;\nconst email = msg.info.email;\nconst password = msg.info.password;\nconst currentTime = new Date().toISOString().slice(0, 19) + 'Z';;\nmsg.payload = { [userId] : {\n        \"devices\": {},\n        \"email\": email,\n        \"password\": password,\n        \"passwordChangeHistory\": {\n            [currentTime] : password\n        },\n        \"username\": msg.info.username\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 460,
+        "wires": [
+            [
+                "020f16057c208895",
+                "7d416e37c1cff1e0"
+            ]
+        ]
+    },
+    {
+        "id": "ac5d4759da7a4673",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1480,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "7d416e37c1cff1e0",
+        "type": "firebase modify",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "users.update()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "users",
+        "method": "update",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 1280,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dae0cc9056b967d6",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "users.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "users",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 610,
+        "y": 1020,
+        "wires": [
+            [
+                "98ebbdfe25244e60"
+            ]
+        ]
+    },
+    {
+        "id": "d7b6ad45c754890a",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "info",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 1020,
+        "wires": [
+            [
+                "dae0cc9056b967d6"
+            ]
+        ]
+    },
+    {
+        "id": "98ebbdfe25244e60",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "function 3",
+        "func": "if (msg.payload == null)\n    msg.payload = { error: 'db chua co user nao' };\nconst username = msg.info.username;\nconst password = msg.info.password;\nconst users = msg.payload;\nconst user = Object.entries(users).find((value) => {\n    return value[1].username === username;\n})\nif (user === undefined) {\n    const timestamp = Date.now().toString(36);\n    const randomString = Math.random().toString(36).slice(2, 10);\n    msg.payload = {\n        \"success\": false,\n        \"message\": \"Tên người dùng không tồn tại\",\n        \"code\": 404\n    };\n} else {\n    if (user[1].password === password) {\n        const token = Buffer.from(username + \":\" + new Date().getTime()).toString('base64');\n        const userId = user[0];\n        msg.payload = {\n            \"success\": true,\n            \"message\": \"Đăng nhập thành công\",\n            \"userId\": userId,\n            \"token\": token,\n            \"code\": 200\n        }\n        msg.token = token;\n        msg.userId = userId;\n    }\n    else {\n        msg.payload = {\n            \"success\": false,\n            \"message\": \"Mật khẩu không chính xác\",\n            \"code\": 401\n        }\n\n    }\n\n}\n\n// const user = Object.values.find()\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 1020,
+        "wires": [
+            [
+                "743059b29ce03609"
+            ]
+        ]
+    },
+    {
+        "id": "743059b29ce03609",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "",
+        "property": "payload.code",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "404",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "401",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 910,
+        "y": 1020,
+        "wires": [
+            [
+                "65db88b28da56982",
+                "901accf4ea9847a9",
+                "16881c2f2b0aad64"
+            ],
+            [
+                "c355b49e7cd2f7eb"
+            ],
+            [
+                "c355b49e7cd2f7eb"
+            ]
+        ]
+    },
+    {
+        "id": "c355b49e7cd2f7eb",
+        "type": "link out",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "96106cdd2e523a3b",
+            "f965615839a86ff9"
+        ],
+        "x": 1045,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "f965615839a86ff9",
+        "type": "link in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "3520ec35f382b446",
+        "name": "link in 2",
+        "links": [
+            "c355b49e7cd2f7eb"
+        ],
+        "x": 225,
+        "y": 760,
+        "wires": [
+            [
+                "3c34a2b9bdfcea16"
+            ]
+        ]
+    },
+    {
+        "id": "901accf4ea9847a9",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "89895093d2f185a7",
+        "type": "firebase modify",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "tokens.update()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "tokens",
+        "method": "update",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 1440,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "65db88b28da56982",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "function 4",
+        "func": "msg.payload = {[msg.token]: msg.userId};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 920,
+        "wires": [
+            [
+                "89895093d2f185a7"
+            ]
+        ]
+    },
+    {
+        "id": "1d557b6c90791027",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "",
+        "url": "home",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 1320,
+        "wires": [
+            [
+                "0275261c3e6dcd22",
+                "cf6dcaa6cff70faf"
+            ]
+        ]
+    },
+    {
+        "id": "6b5acdbead53e043",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n    \n    <link type=\"text/css\" rel=\"stylesheet\" href=\"./index.css\" media=\"all\">\n\n    <script defer src=\"./index.js\">\n        /* OPTIONAL: Put your custom code in that */\n    </script>\n    <!-- #endregion -->\n\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n        <div class=\"nav-bar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"#\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"panel\">\n            \n            <a class=\"login-btn\" href=\"../login\">Đăng nhập</a>\n            <a class=\"signup-btn\" href=\"../signup\">Đăng ký</a>\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"container-left\">\n            <span class=\"big-text\">Chào mừng mọi người đến với website của chúng tôi, hãy cùng nhau trải nghiệm điều thú vị nào!!</span>\n            <h4>Đăng nhập để trải nghiệm ==></h4>\n            <a href=\"../login\">Đăng nhập</a>\n        </div>\n        <div class=\"container-right\">\n            <div>\n                <img src=\"/images/demo1.png\" alt=\"demo1\">\n                <img src=\"/images/demo2.png\" alt=\"demo2\">\n            </div>\n            <div>\n                <img src=\"/images/demo3.png\" alt=\"demo3\">\n                <img src=\"/images/demo4.png\" alt=\"demo4\">\n            </div>\n        </div>\n\n    </div>\n    <div id=\"mything\"></div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n    <script> \n        if ({{payload.success}} === 0) {\n            window.alert({{payload.message}})\n        }\n    </script>\n\n</body>\n\n</html>",
+        "output": "str",
+        "x": 1120,
+        "y": 1300,
+        "wires": [
+            [
+                "a86a314fe73c881b"
+            ]
+        ]
+    },
+    {
+        "id": "a86a314fe73c881b",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1290,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "df846795b38ca423",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "Redirect to /home",
+        "rules": [
+            {
+                "t": "set",
+                "p": "statusCode",
+                "pt": "msg",
+                "to": "302",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.location",
+                "pt": "msg",
+                "to": "/home",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1310,
+        "y": 1000,
+        "wires": [
+            [
+                "53636aa05e92ed73"
+            ]
+        ]
+    },
+    {
+        "id": "53636aa05e92ed73",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1490,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "47e2d85031aadeb4",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "",
+        "url": "/home",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 1740,
+        "wires": [
+            [
+                "2ecf9e1178ddb6f1"
+            ]
+        ]
+    },
+    {
+        "id": "16881c2f2b0aad64",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "add a cookie",
+        "func": "msg.cookies = {};\n\n\nmsg.cookies['token'] = {\n    value: msg.token, \n    path: \"/\",   \n    expires: new Date(Date.now() + 3600000)\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 1000,
+        "wires": [
+            [
+                "df846795b38ca423"
+            ]
+        ]
+    },
+    {
+        "id": "9b820593bef13348",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"./index.css\" media=\"all\">\n\n    <script defer src=\"./index.js\">\n        /* OPTIONAL: Put your custom code in that */\n    </script>\n    <!-- #endregion -->\n\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n        <div class=\"nav-bar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"#\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"panel\">\n            <div class=\"user-name\">{{payload.data.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"./avatar.png\" alt=\"avatar\">\n            </div>\n            <a href=\"/logout\">Đăng xuất</a>\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"container-left\">\n            <span class=\"big-text\">Chào mừng mọi người đến với website của chúng tôi, hãy cùng nhau trải nghiệm điều thú vị nào!!</span>\n            <span class=\"big-text\">Chào mừng mọi người đến với website của chúng tôi, hãy cùng nhau trải nghiệm điều thú vị nào!!</span>\n            <form method=\"post\">\n                <input name=\"deviceId\" type=\"text\" placeholder=\"id thiết bị\">\n                <input name=\"devicePassword\" type=\"password\" placeholder=\"mât khẩu thiết bị\">\n                <div class=\"informError\">{{payload.message}}</div>\n                <button type=\"submit\">Bắt đầu</button>\n            </form>\n            <span class=\"small-text\">Hãy nhập id thiết bị và mật khẩu của Chiếc Hộp An toàn của bạn để khám phá các tính năng của nó nhé ❤️❤️❤️</span>\n        </div>\n        <div class=\"container-right\">\n            <div>\n                <img src=\"/images/demo1.png\" alt=\"demo1\">\n                <img src=\"/images/demo2.png\" alt=\"demo2\">\n            </div>\n            <div>\n                <img src=\"/images/demo3.png\" alt=\"demo3\">\n                <img src=\"/images/demo4.png\" alt=\"demo4\">\n            </div>\n        </div>\n\n    </div>\n    <div id=\"mything\"></div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n        <script> \n        if ({{payload.success}} === 1) {\n            window.alert('Đăng nhập thành công')\n        } else {\n            window.alert(\"{{payload.message}}\")\n        }\n    </script>\n\n</body>\n\n</html>",
+        "output": "str",
+        "x": 1120,
+        "y": 1380,
+        "wires": [
+            [
+                "a86a314fe73c881b"
+            ]
+        ]
+    },
+    {
+        "id": "137e39a485ee7204",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "bff3195c456d9d0f",
+        "name": "",
+        "url": "/logout",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 1540,
+        "wires": [
+            [
+                "f067c6e90fa75e0a"
+            ]
+        ]
+    },
+    {
+        "id": "3cd32072fbc5ea55",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "bff3195c456d9d0f",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 790,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "f067c6e90fa75e0a",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "bff3195c456d9d0f",
+        "name": "clear cookie",
+        "func": "msg.cookies = {};\nmsg.cookies['token'] = null;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1540,
+        "wires": [
+            [
+                "42f4507557a4e89f"
+            ]
+        ]
+    },
+    {
+        "id": "42f4507557a4e89f",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "bff3195c456d9d0f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "statusCode",
+                "pt": "msg",
+                "to": "302",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.location",
+                "pt": "msg",
+                "to": "/home",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 1540,
+        "wires": [
+            [
+                "3cd32072fbc5ea55"
+            ]
+        ]
+    },
+    {
+        "id": "3e03e6b198c65cc5",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "url": "/temp",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 340,
+        "y": 2480,
+        "wires": [
+            [
+                "e09c79bd0c0acc70"
+            ]
+        ]
+    },
+    {
+        "id": "13044f9730a4d76e",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 630,
+        "y": 2480,
+        "wires": []
+    },
+    {
+        "id": "e09c79bd0c0acc70",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Temperature Monitor</title>\n</head>\n<body>\n  <h1>Temperature Monitor</h1>\n  <p>Current Temperature: <span id=\"temp\">--</span> °C</p>\n\n  <script>\n    var ws = new WebSocket(\"ws://\" + location.host + \"/ws/temp\");\n\n    ws.onmessage = function(event) {\n      var data = JSON.parse(event.data);\n      document.getElementById('temp').innerText = data.temperature;\n    };\n  </script>\n</body>\n</html>\n",
+        "output": "str",
+        "x": 500,
+        "y": 2480,
+        "wires": [
+            [
+                "13044f9730a4d76e"
+            ]
+        ]
+    },
+    {
+        "id": "0aa651d7105e0019",
+        "type": "websocket in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "server": "c312862d5d82aacb",
+        "client": "",
+        "x": 650,
+        "y": 2540,
+        "wires": [
+            [
+                "16cc9aac6f20b967"
+            ]
+        ]
+    },
+    {
+        "id": "b5658580f86b75dc",
+        "type": "websocket out",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "server": "c312862d5d82aacb",
+        "client": "",
+        "x": 1320,
+        "y": 2480,
+        "wires": []
+    },
+    {
+        "id": "01ee62ab4418539a",
+        "type": "inject",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 970,
+        "y": 2480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6e365085405edd56",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "function 6",
+        "func": "msg.payload = {\n    temperature: msg.payload.dht.temperature,\n    humidity: msg.payload.dht.humidity\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 2620,
+        "wires": [
+            [
+                "b5658580f86b75dc"
+            ]
+        ]
+    },
+    {
+        "id": "dabd522bbb02a7a8",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "devices.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "devices",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 580,
+        "y": 1740,
+        "wires": [
+            [
+                "b4f9edda9934c4b4",
+                "125ca7b148f643d9"
+            ]
+        ]
+    },
+    {
+        "id": "2ecf9e1178ddb6f1",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "info",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 1740,
+        "wires": [
+            [
+                "dabd522bbb02a7a8",
+                "efc1333bc59ba153"
+            ]
+        ]
+    },
+    {
+        "id": "d954d1f93a541d9c",
+        "type": "inject",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "init a device",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 1860,
+        "wires": [
+            [
+                "12cb4be0faad6c8c"
+            ]
+        ]
+    },
+    {
+        "id": "12cb4be0faad6c8c",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "function 7",
+        "func": "\nconst deviceId = '24gd24';\nmsg.payload = {[deviceId]: {\n    devicePassword: '1234',\n    dht: {\n        '2024-08-17T04:45:57Z': {\n            humidity: 50,\n            temperature: 37\n        },\n        '2024-08-17T04:45:56Z': {\n            humidity: 50,\n            temperature: 37\n        }\n    }\n}}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 1860,
+        "wires": [
+            [
+                "e12f1d69151325c2"
+            ]
+        ]
+    },
+    {
+        "id": "e12f1d69151325c2",
+        "type": "firebase modify",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "devices.update()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "devices",
+        "method": "update",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 550,
+        "y": 1860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b4f9edda9934c4b4",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "function 8",
+        "func": "const deviceId = msg.info.deviceId;\nconst password = msg.info.devicePassword;\nconst devices = msg.payload;\nconst validDevice = Object.keys(devices).find(key => key===deviceId)\nif (validDevice === undefined) {\n    msg.payload={\n        success: 0,\n        message: `${deviceId}ID thiết bị không tồn tại`\n    }\n} else {\n    const deviceInfo = devices[deviceId];\n    if (deviceInfo.devicePassword === password) {\n        msg.payload={\n            success: 1,\n            message: \"Đăng nhập vào thiết bị thành công\",\n            deviceId: deviceId\n        }\n        msg.deviceId = deviceId;\n    } else {\n        msg.payload={\n            success: 0,\n            message: \"Mật khẩu thiết bị không đúng\"\n        }\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 1740,
+        "wires": [
+            [
+                "6a9e3ed5216c9e2e"
+            ]
+        ]
+    },
+    {
+        "id": "efc1333bc59ba153",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "125ca7b148f643d9",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "1403263fdcad817d",
+        "type": "link in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "link in 4",
+        "links": [
+            "2a299fe053c6cd27"
+        ],
+        "x": 545,
+        "y": 1340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bd60ab234ede7a44",
+        "type": "link in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "link in 5",
+        "links": [
+            "4d74be97289be349",
+            "a77bb034be993fb9"
+        ],
+        "x": 965,
+        "y": 1380,
+        "wires": [
+            [
+                "9b820593bef13348"
+            ]
+        ]
+    },
+    {
+        "id": "6a9e3ed5216c9e2e",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 930,
+        "y": 1740,
+        "wires": [
+            [
+                "ff6738592e867531"
+            ],
+            [
+                "a77bb034be993fb9"
+            ]
+        ]
+    },
+    {
+        "id": "09a241e435a3b0a3",
+        "type": "link in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "link in 6",
+        "links": [
+            "50bb499b7134a1ac"
+        ],
+        "x": 875,
+        "y": 1840,
+        "wires": [
+            [
+                "5a7b0edcf997d9eb"
+            ]
+        ]
+    },
+    {
+        "id": "5a7b0edcf997d9eb",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "a77bb034be993fb9",
+        "type": "link out",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "link out 8",
+        "mode": "link",
+        "links": [
+            "bd60ab234ede7a44"
+        ],
+        "x": 1055,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "c8f1f11f88cc40a6",
+        "type": "link out",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "link out 7",
+        "mode": "link",
+        "links": [
+            "d2acaee80f661786",
+            "80f0a6d7ff13e8e1"
+        ],
+        "x": 1255,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "0275261c3e6dcd22",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "tokens.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "tokens",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 320,
+        "y": 1280,
+        "wires": [
+            [
+                "6d6dc84f5378862c"
+            ]
+        ]
+    },
+    {
+        "id": "abfbc740d2e8972e",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "function 9",
+        "func": "const token = msg.req.cookies?.token;\nconst tokens = msg.payload?.tokens;\nconst users = msg.payload?.users;\n\nif (token === undefined || token === null) {\n    msg.payload = {\n        success: 0,\n        message: \"chưa có phiên đăng nhập\"\n    }\n} else {\n    const validToken = Object.keys(tokens).find(value => {\n        return value===token;\n    });\n    if (validToken === undefined) {\n        msg.payload = {\n            success: 0,\n            message: 'phiên đăng nhập không có trong database'\n        }\n    } else {\n        const validUser = Object.keys(users).find(value => {\n            return value===tokens[token];\n        })\n        if (validUser === undefined) {\n            msg.payload = {\n                success:0,\n                message: 'userid ứng với token không tồn tại trong db'\n            }\n        } else {\n            msg.payload = {\n                success: 1,\n                message: \"Thành công\",\n                data: users[validUser]\n            }\n        }\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 1300,
+        "wires": [
+            [
+                "099c0f9a1f4d6a2f",
+                "f96daf9645607b16"
+            ]
+        ]
+    },
+    {
+        "id": "6d6dc84f5378862c",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "tokens",
+                "tot": "str",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 1280,
+        "wires": [
+            [
+                "be99707bd9085075"
+            ]
+        ]
+    },
+    {
+        "id": "cf6dcaa6cff70faf",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "users.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "users",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 330,
+        "y": 1340,
+        "wires": [
+            [
+                "96fd063cbb4b571e"
+            ]
+        ]
+    },
+    {
+        "id": "96fd063cbb4b571e",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "users",
+                "tot": "str",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 1340,
+        "wires": [
+            [
+                "be99707bd9085075"
+            ]
+        ]
+    },
+    {
+        "id": "be99707bd9085075",
+        "type": "join",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 670,
+        "y": 1300,
+        "wires": [
+            [
+                "abfbc740d2e8972e",
+                "5d8070b403613ac9"
+            ]
+        ]
+    },
+    {
+        "id": "099c0f9a1f4d6a2f",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 970,
+        "y": 1320,
+        "wires": [
+            [
+                "6b5acdbead53e043"
+            ],
+            [
+                "9b820593bef13348"
+            ]
+        ]
+    },
+    {
+        "id": "5d8070b403613ac9",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 790,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "f96daf9645607b16",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 970,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "80f0a6d7ff13e8e1",
+        "type": "link in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "link in 7",
+        "links": [
+            "c8f1f11f88cc40a6"
+        ],
+        "x": 215,
+        "y": 2080,
+        "wires": [
+            [
+                "da4231abc30cf933",
+                "3ed584a5ac553e9e"
+            ]
+        ]
+    },
+    {
+        "id": "77c1f7918456b78b",
+        "type": "link in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "link in 8",
+        "links": [
+            "2a299fe053c6cd27"
+        ],
+        "x": 565,
+        "y": 2100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da4231abc30cf933",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "tokens.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "tokens",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 340,
+        "y": 2040,
+        "wires": [
+            [
+                "44b233cd769f7d3e"
+            ]
+        ]
+    },
+    {
+        "id": "44b233cd769f7d3e",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "tokens",
+                "tot": "str",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 2040,
+        "wires": [
+            [
+                "3f7d87a451bc7396"
+            ]
+        ]
+    },
+    {
+        "id": "3ed584a5ac553e9e",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "users.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "users",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 350,
+        "y": 2100,
+        "wires": [
+            [
+                "c2d5c5b0fea15e06"
+            ]
+        ]
+    },
+    {
+        "id": "c2d5c5b0fea15e06",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "users",
+                "tot": "str",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 2100,
+        "wires": [
+            [
+                "3f7d87a451bc7396"
+            ]
+        ]
+    },
+    {
+        "id": "3f7d87a451bc7396",
+        "type": "join",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 690,
+        "y": 2060,
+        "wires": [
+            [
+                "1da0615f8d31a62d"
+            ]
+        ]
+    },
+    {
+        "id": "1da0615f8d31a62d",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "function 10",
+        "func": "const token = msg.req.cookies?.token;\nconst tokens = msg.payload?.tokens;\nconst users = msg.payload?.users;\n\nif (token === undefined || token === null) {\n    msg.payload = {\n        success: 0,\n        message: \"chưa có phiên đăng nhập\"\n    }\n} else {\n    const validToken = Object.keys(tokens).find(value => {\n        return value===token;\n    });\n    if (validToken === undefined) {\n        msg.payload = {\n            success: 0,\n            message: 'phiên đăng nhập không có trong database'\n        }\n    } else {\n        const validUser = Object.keys(users).find(value => {\n            return value===tokens[token];\n        })\n        if (validUser === undefined) {\n            msg.payload = {\n                success:0,\n                message: 'userid ứng với token không tồn tại trong db'\n            }\n        } else {\n            msg.payload = {\n                success: 1,\n                message: \"Thành công\",\n                data: users[validUser],\n                // update: {\n                //     ...users[validUser],\n                //     deviceId: msg.deviceId\n                // }\n                update: {[validUser]: {\n                    ...users[validUser],\n                    deviceId: msg.deviceId\n                }}\n            }\n            \n            msg.userId = validUser;\n        }\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 2060,
+        "wires": [
+            [
+                "1c08bec20379386b"
+            ]
+        ]
+    },
+    {
+        "id": "ff6738592e867531",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "8c6fb0fc02b78997",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "userIdInfo",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 1760,
+        "wires": [
+            [
+                "c8f1f11f88cc40a6"
+            ]
+        ]
+    },
+    {
+        "id": "1c08bec20379386b",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1010,
+        "y": 2080,
+        "wires": [
+            [
+                "0176b30d3e5a073f"
+            ],
+            [
+                "4d74be97289be349"
+            ]
+        ]
+    },
+    {
+        "id": "4d74be97289be349",
+        "type": "link out",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "link out 9",
+        "mode": "link",
+        "links": [
+            "bd60ab234ede7a44"
+        ],
+        "x": 1115,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "9828a1aa598f93c1",
+        "type": "firebase modify",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "/users.update()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "/users",
+        "method": "update",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 1360,
+        "y": 2000,
+        "wires": [
+            [
+                "119cc61c77683d0c"
+            ]
+        ]
+    },
+    {
+        "id": "d12611326055b2f5",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1610,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "0176b30d3e5a073f",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.update",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 2040,
+        "wires": [
+            [
+                "9828a1aa598f93c1"
+            ]
+        ]
+    },
+    {
+        "id": "119cc61c77683d0c",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "182e2555c58d9350",
+        "name": "Redirect to /features",
+        "rules": [
+            {
+                "t": "set",
+                "p": "statusCode",
+                "pt": "msg",
+                "to": "302",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.location",
+                "pt": "msg",
+                "to": "/features",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1420,
+        "y": 2120,
+        "wires": [
+            [
+                "d12611326055b2f5"
+            ]
+        ]
+    },
+    {
+        "id": "999815cff53dbfb8",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "",
+        "url": "/features",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 2280,
+        "wires": [
+            [
+                "0f3c8aacb2cd467a",
+                "0135d05f79751036",
+                "c0d693adad93e818"
+            ]
+        ]
+    },
+    {
+        "id": "93f50f3262210755",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n\n</head>\n\n<body class=\"uib\">\n\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n        <div class=\"nav-bar\">\n            <ul>\n                <li><a href=\"../home\">Trang chủ</a></li>\n                <li><a href=\"./\">Tính năng</a></li>\n                <li><a href=\"../\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"panel\">\n            <div class=\"user-name\">{{payload.userInfo?.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"./images/avatar.png\" alt=\"avatar\">\n            </div>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container1\">\n            <div class=\"title\">Tần suất mở hộp</div>\n            <ul>\n                <li>\n                    <span class=\"date\">Ngày 18/07/2024</span>\n                    <span class=\"num\">12 lần</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container2\">\n            <div class=\"title\">Nhiệt độ độ ẩm hiện tại</div>\n            <ul>\n                <li>\n                    <span>Nhiệt độ</span>\n                    <span><span id=\"temp\"></span> độ</span>\n                </li>\n                <li>\n                    <span>Độ ẩm</span>\n                    <span><span id=\"humi\"></span> %</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container3\">\n            <div class=\"title\">Lịch sử đổi mật khẩu</div>\n            <ul>\n                <li>Mật khẩu mặc định là 1234</li>\n                <li>Đã thay đổi mật khẩu người dùng vào lúc 4h40p ngày 23/7/2024</li>\n            </ul>\n        </div>\n    </div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n    <script>\n    var ws = new WebSocket(\"ws://\" + location.host + \"/ws/temp\");\n\n    ws.onmessage = function(event) {\n      var data = JSON.parse(event.data);\n      document.getElementById('temp').innerText = data.temperature;\n      document.getElementById('humi').innerText = data.humidity;\n    };\n  </script>\n</body>\n\n</html>",
+        "output": "str",
+        "x": 1600,
+        "y": 2200,
+        "wires": [
+            [
+                "7de014b6bdea2ad9"
+            ]
+        ]
+    },
+    {
+        "id": "7de014b6bdea2ad9",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1890,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "7090b10a1068d52b",
+        "type": "link in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "link in 9",
+        "links": [
+            "2a299fe053c6cd27"
+        ],
+        "x": 625,
+        "y": 2340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0f3c8aacb2cd467a",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "tokens.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "tokens",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 420,
+        "y": 2280,
+        "wires": [
+            [
+                "9c602a0986070ff3"
+            ]
+        ]
+    },
+    {
+        "id": "9c602a0986070ff3",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "tokens",
+                "tot": "str",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 2280,
+        "wires": [
+            [
+                "f3022942498742db"
+            ]
+        ]
+    },
+    {
+        "id": "0135d05f79751036",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "users.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "users",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 410,
+        "y": 2340,
+        "wires": [
+            [
+                "2cab5ee70fc419cc"
+            ]
+        ]
+    },
+    {
+        "id": "2cab5ee70fc419cc",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "users",
+                "tot": "str",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 2340,
+        "wires": [
+            [
+                "f3022942498742db"
+            ]
+        ]
+    },
+    {
+        "id": "f3022942498742db",
+        "type": "join",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 790,
+        "y": 2280,
+        "wires": [
+            [
+                "34ec763d2602440f",
+                "368010e717cff4ce"
+            ]
+        ]
+    },
+    {
+        "id": "34ec763d2602440f",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "function 11",
+        "func": "const token = msg.req.cookies.token;\nconst tokens = msg.payload.tokens;\nconst devices = msg.payload.devices;\nconst users = msg.payload.users;\n\nconst ERROR_AS_A_GUEST = 2;\nconst ERROR_CHUA_CO_DEVICE = 3;\n\n\nif (tokens == undefined || devices == undefined || users == undefined) {\n    msg.payload = {\n        success: 0,\n        message: \"lỗi database khong có một trong 3 users, devices, tokens\",\n        errorId: ERROR_AS_A_GUEST\n    }\n}\nif (token === undefined || token === null) {\n    msg.payload = {\n        success: 0,\n        message: \"chưa có phiên đăng nhập\",\n        errorId: ERROR_AS_A_GUEST\n    }\n} else {\n    const validToken = Object.keys(tokens).find(value => {\n        return value===token;\n    });\n    if (validToken === undefined) {\n        msg.payload = {\n            success: 0,\n            message: 'phiên đăng nhập không có trong database',\n            errorId: ERROR_AS_A_GUEST\n        }\n    } else {\n        const userId = Object.keys(users).find(key => {\n            return key===tokens[token];\n        })\n        if (userId === undefined) {\n            msg.payload = {\n                success:0,\n                message: 'userid ứng với token không tồn tại trong db',\n                errorId: ERROR_AS_A_GUEST\n            }\n        } else {\n            const deviceId = users[userId].deviceId;\n            if (deviceId == undefined) {\n                msg.payload = {\n                    success: 0,\n                    message: \"vui lòng đăng nhập thiết bị trước\",\n                    errorId: ERROR_CHUA_CO_DEVICE\n                }\n            } else {\n                msg.payload = {\n                    success: 1,\n                    userInfo: {\n                        ...users[userId]\n                    },\n                    deviceInfo: {\n                        deviceId,\n                        ...devices[deviceId]\n                    }\n                }\n            }\n        }\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 2280,
+        "wires": [
+            [
+                "dc88009134b3b7a3"
+            ]
+        ]
+    },
+    {
+        "id": "368010e717cff4ce",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "counter",
+        "x": 980,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "c0d693adad93e818",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "devices.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "/devices",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 420,
+        "y": 2220,
+        "wires": [
+            [
+                "1ff5a1e1d2ee4be1"
+            ]
+        ]
+    },
+    {
+        "id": "1ff5a1e1d2ee4be1",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "devices",
+                "tot": "str",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 2220,
+        "wires": [
+            [
+                "f3022942498742db"
+            ]
+        ]
+    },
+    {
+        "id": "dc88009134b3b7a3",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1120,
+        "y": 2260,
+        "wires": [
+            [
+                "01c1e8851eed7fed"
+            ],
+            [
+                "29dee9a57fd409d3"
+            ]
+        ]
+    },
+    {
+        "id": "29dee9a57fd409d3",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "",
+        "property": "payload.errorId",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1070,
+        "y": 2360,
+        "wires": [
+            [
+                "062307fb46db2e17"
+            ],
+            [
+                "78b8a55eb1a279c5"
+            ]
+        ]
+    },
+    {
+        "id": "062307fb46db2e17",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n\n</head>\n\n<body class=\"uib\">\n\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n        <div class=\"nav-bar\">\n            <ul>\n                <li><a href=\"../home\">Trang chủ</a></li>\n                <li><a href=\"./\">Tính năng</a></li>\n                <li><a href=\"../\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"panel\">\n            <div class=\"user-name\">Nguyễn Văn An</div>\n            <div class=\"avatart\">\n                <img src=\"./avatar.png\" alt=\"avatar\">\n            </div>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container1\">\n            <div class=\"title\">Tần suất mở hộp</div>\n            <ul>\n                <li>\n                    <span class=\"date\">Ngày 18/07/2024</span>\n                    <span class=\"num\">12 lần</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container2\">\n            <div class=\"title\">Nhiệt độ độ ẩm hiện tại</div>\n            <ul>\n                <li>\n                    <span>Nhiệt độ</span>\n                    <span>34 độ</span>\n                </li>\n                <li>\n                    <span>Độ ẩm</span>\n                    <span>43%</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container3\">\n            <div class=\"title\">Lịch sử đổi mật khẩu</div>\n            <ul>\n                <li>Mật khẩu mặc định là 1234</li>\n                <li>Đã thay đổi mật khẩu người dùng vào lúc 4h40p ngày 23/7/2024</li>\n            </ul>\n        </div>\n    </div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n    <script>window.alert(\"Bạn chưa đăng nhập tài khoản người dùng, vui lòng đăng nhập trước\"); window.location.href = \"/login\";</script>\n\n</body>\n\n</html>",
+        "output": "str",
+        "x": 1660,
+        "y": 2280,
+        "wires": [
+            [
+                "7de014b6bdea2ad9"
+            ]
+        ]
+    },
+    {
+        "id": "78b8a55eb1a279c5",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n\n</head>\n\n<body class=\"uib\">\n\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n        <div class=\"nav-bar\">\n            <ul>\n                <li><a href=\"../home\">Trang chủ</a></li>\n                <li><a href=\"./\">Tính năng</a></li>\n                <li><a href=\"../\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"panel\">\n            <div class=\"user-name\">Nguyễn Văn An</div>\n            <div class=\"avatart\">\n                <img src=\"./avatar.png\" alt=\"avatar\">\n            </div>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container1\">\n            <div class=\"title\">Tần suất mở hộp</div>\n            <ul>\n                <li>\n                    <span class=\"date\">Ngày 18/07/2024</span>\n                    <span class=\"num\">12 lần</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container2\">\n            <div class=\"title\">Nhiệt độ độ ẩm hiện tại</div>\n            <ul>\n                <li>\n                    <span>Nhiệt độ</span>\n                    <span>34 độ</span>\n                </li>\n                <li>\n                    <span>Độ ẩm</span>\n                    <span>43%</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container3\">\n            <div class=\"title\">Lịch sử đổi mật khẩu</div>\n            <ul>\n                <li>Mật khẩu mặc định là 1234</li>\n                <li>Đã thay đổi mật khẩu người dùng vào lúc 4h40p ngày 23/7/2024</li>\n            </ul>\n        </div>\n    </div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n    <script>window.alert(\"Bạn chưa đăng nhập tài khoản thiết bị, vui lòng đăng nhập trước\"); window.location.href = \"/home\";</script>\n\n</body>\n\n</html>",
+        "output": "str",
+        "x": 1660,
+        "y": 2360,
+        "wires": [
+            [
+                "7de014b6bdea2ad9"
+            ]
+        ]
+    },
+    {
+        "id": "adc2c6c2b382a995",
+        "type": "firebase.on",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "devices.on()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "devices",
+        "atStart": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 90,
+        "y": 2720,
+        "wires": [
+            [
+                "1b5fcb69e818a4a0"
+            ]
+        ]
+    },
+    {
+        "id": "e362b41594eb3b9c",
+        "type": "join",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "1",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 670,
+        "y": 2760,
+        "wires": [
+            [
+                "5a6dbe74d1a16cd2"
+            ]
+        ]
+    },
+    {
+        "id": "5a6dbe74d1a16cd2",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "function 12",
+        "func": "const devices = msg.payload.devices;\nconst deviceId = flow.get('deviceId');\nflow.log = deviceId;\nif (devices == undefined) {\n    msg.payload = {\n        message: \"devices trên db không tồn tại\",\n        success: 0\n    }\n} else {\n    if (deviceId == undefined) {\n        msg.payload = {\n            message: \"deviceId trên flow không có\",\n            success: 0\n        }\n    } else {\n        const device = Object.keys(devices).find(key => {\n            return key=deviceId;\n        })\n        if (device == undefined) {\n            msg.payload = {\n                message: \"device trong flow không có trên db\",\n                success: 0\n            }\n        } else {\n            const keys = Object.keys(devices[deviceId].dht);\n            const maxKey = keys.reduce((max, key) => key > max ? key : max, keys[0]);\n            const currentDHT = devices[deviceId].dht[maxKey];\n            msg.payload = {\n                success: 1,\n                deviceInfo: {\n                    deviceId,\n                    ...devices[deviceId]\n                },\n                dht: currentDHT\n            }\n        }\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 2680,
+        "wires": [
+            [
+                "df27dc7ad9038c84"
+            ]
+        ]
+    },
+    {
+        "id": "973a4c9ea6371475",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "devices.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "/devices",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 400,
+        "y": 2680,
+        "wires": [
+            [
+                "43dc6b5b6446f728"
+            ]
+        ]
+    },
+    {
+        "id": "43dc6b5b6446f728",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "devices",
+                "tot": "str",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 2680,
+        "wires": [
+            [
+                "e362b41594eb3b9c"
+            ]
+        ]
+    },
+    {
+        "id": "df27dc7ad9038c84",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 990,
+        "y": 2680,
+        "wires": [
+            [
+                "0f61c87ddcba021e",
+                "6e365085405edd56"
+            ],
+            [
+                "c1229444a0fe5751"
+            ]
+        ]
+    },
+    {
+        "id": "0f61c87ddcba021e",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "counter",
+        "x": 1060,
+        "y": 2600,
+        "wires": []
+    },
+    {
+        "id": "c1229444a0fe5751",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "counter",
+        "x": 1180,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "16cc9aac6f20b967",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "counter",
+        "x": 800,
+        "y": 2540,
+        "wires": []
+    },
+    {
+        "id": "cd56280a0995c3e6",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "counter",
+        "x": 1850,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "01c1e8851eed7fed",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "090e0867aa9a50d1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "deviceId",
+                "pt": "flow",
+                "to": "payload.deviceInfo.deviceId",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1340,
+        "y": 2200,
+        "wires": [
+            [
+                "93f50f3262210755"
+            ]
+        ]
+    },
+    {
+        "id": "1b5fcb69e818a4a0",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "property": "deviceId",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "nempty"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 250,
+        "y": 2680,
+        "wires": [
+            [
+                "973a4c9ea6371475"
+            ]
+        ]
+    },
+    {
+        "id": "f9f116f25d2361a8",
+        "type": "inject",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 2620,
+        "wires": [
+            [
+                "1b5fcb69e818a4a0"
+            ]
+        ]
+    },
+    {
+        "id": "c114bb8792bc490d",
+        "type": "inject",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1640,
+        "y": 2520,
+        "wires": [
+            [
+                "f86cf6295f346de8"
+            ]
+        ]
+    },
+    {
+        "id": "f86cf6295f346de8",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "flow",
+                "to": "r32432",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1810,
+        "y": 2520,
+        "wires": [
+            []
+        ]
+    }
+]
