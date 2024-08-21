@@ -8,14 +8,6 @@
         "env": []
     },
     {
-        "id": "a29cf0664c167293",
-        "type": "tab",
-        "label": "Template Tests",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "9b89b6b39d27fee0",
         "type": "group",
         "z": "f8ebeef9c1111f1b",
@@ -34,8 +26,8 @@
             "8bf09d2714939881",
             "e736e94f6afa92a0"
         ],
-        "x": 134,
-        "y": 139,
+        "x": 54,
+        "y": 59,
         "w": 532,
         "h": 142
     },
@@ -58,9 +50,9 @@
             "9f4ab41125ca7829",
             "f965615839a86ff9"
         ],
-        "x": 134,
-        "y": 659,
-        "w": 692,
+        "x": 54,
+        "y": 579,
+        "w": 612,
         "h": 142
     },
     {
@@ -83,17 +75,16 @@
             "4e9b5483be7dbe26",
             "1defe0bf82b4b6d5",
             "e5bae294ff368a81",
-            "020f16057c208895",
             "d209717b852b4981",
             "d4b35b586c549705",
             "02ee6a4d331d2ae2",
-            "ac5d4759da7a4673",
-            "7d416e37c1cff1e0"
+            "7d416e37c1cff1e0",
+            "7b31274b30a243ec"
         ],
-        "x": 134,
-        "y": 339,
-        "w": 1452,
-        "h": 262
+        "x": 54,
+        "y": 259,
+        "w": 1472,
+        "h": 242
     },
     {
         "id": "5fa0ebb81a1ef25f",
@@ -115,17 +106,16 @@
             "98ebbdfe25244e60",
             "743059b29ce03609",
             "c355b49e7cd2f7eb",
-            "901accf4ea9847a9",
             "89895093d2f185a7",
             "65db88b28da56982",
-            "df846795b38ca423",
             "53636aa05e92ed73",
-            "16881c2f2b0aad64"
+            "16881c2f2b0aad64",
+            "393e58d9b1bb4bb0"
         ],
-        "x": 154,
-        "y": 879,
-        "w": 1412,
-        "h": 262
+        "x": 54,
+        "y": 839,
+        "w": 1492,
+        "h": 202
     },
     {
         "id": "5c604d84a3eb08a8",
@@ -141,7 +131,6 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "1d557b6c90791027",
             "6b5acdbead53e043",
             "a86a314fe73c881b",
             "9b820593bef13348",
@@ -155,12 +144,14 @@
             "be99707bd9085075",
             "099c0f9a1f4d6a2f",
             "5d8070b403613ac9",
-            "f96daf9645607b16"
+            "f96daf9645607b16",
+            "4256fe092c2c1edb",
+            "1d557b6c90791027"
         ],
         "x": 54,
-        "y": 1179,
+        "y": 1079,
         "w": 1312,
-        "h": 242
+        "h": 262
     },
     {
         "id": "bff3195c456d9d0f",
@@ -179,11 +170,11 @@
             "137e39a485ee7204",
             "3cd32072fbc5ea55",
             "f067c6e90fa75e0a",
-            "42f4507557a4e89f"
+            "2e5a6ca0ec15bdfe"
         ],
-        "x": 94,
-        "y": 1499,
-        "w": 772,
+        "x": 54,
+        "y": 1559,
+        "w": 932,
         "h": 82
     },
     {
@@ -217,10 +208,11 @@
             "c1229444a0fe5751",
             "16cc9aac6f20b967",
             "1b5fcb69e818a4a0",
-            "f9f116f25d2361a8"
+            "f9f116f25d2361a8",
+            "e71e6bfc04970e2b"
         ],
-        "x": -6,
-        "y": 2439,
+        "x": 54,
+        "y": 2619,
         "w": 1432,
         "h": 362
     },
@@ -248,8 +240,8 @@
             "0176b30d3e5a073f",
             "119cc61c77683d0c"
         ],
-        "x": 174,
-        "y": 1959,
+        "x": 54,
+        "y": 1979,
         "w": 1512,
         "h": 202
     },
@@ -277,16 +269,161 @@
             "efc1333bc59ba153",
             "125ca7b148f643d9",
             "6a9e3ed5216c9e2e",
-            "09a241e435a3b0a3",
             "a77bb034be993fb9",
             "ff6738592e867531",
-            "c8f1f11f88cc40a6",
-            "5a7b0edcf997d9eb"
+            "c8f1f11f88cc40a6"
+        ],
+        "x": 54,
+        "y": 1659,
+        "w": 1202,
+        "h": 282
+    },
+    {
+        "id": "4505c1966160c429",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "892c95171c4ef229",
+            "ade538498d3b5cdf",
+            "a810f188556fff73",
+            "760acdb2575f7efd"
+        ],
+        "x": 54,
+        "y": 3099,
+        "w": 622,
+        "h": 122
+    },
+    {
+        "id": "9885fe8525b57c4a",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "929f8218831d0662",
+            "12fe5fa57d2e7a23",
+            "1388203de52b8db4",
+            "8589bc12f98b9d4d"
         ],
         "x": 94,
-        "y": 1619,
-        "w": 1202,
-        "h": 302
+        "y": 3499,
+        "w": 622,
+        "h": 122
+    },
+    {
+        "id": "7ff8ef5a3768f3db",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "63cfcd5947bc32c0",
+            "3340e65a08fc41e3",
+            "8a3ec8f411871a20",
+            "78eca2b335887729",
+            "f1adf0aa2be95411",
+            "2d31c901e05d0a31",
+            "0ffcb0c3810a64a5",
+            "93e36a4ba5e6f519",
+            "eee86917250d16b7",
+            "a81e735317ca4b19",
+            "14a64dd7bb32c802"
+        ],
+        "x": 94,
+        "y": 3639,
+        "w": 1612,
+        "h": 242
+    },
+    {
+        "id": "b15d83b2db108cab",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d1d374253aa5e735",
+            "9113f43d2cc06bd8",
+            "ad85a474a650cbc3",
+            "9c24f6b401005d8b",
+            "98e84d84f920040f",
+            "7c889d43e2858bde",
+            "9b024ecae5fb57a2",
+            "66931862c8c4c1c8",
+            "ea1cb77d20aba409",
+            "42ad81f7d2d271b9"
+        ],
+        "x": 74,
+        "y": 3299,
+        "w": 1372,
+        "h": 162
+    },
+    {
+        "id": "1ee870ba46f18382",
+        "type": "group",
+        "z": "f8ebeef9c1111f1b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2fb843728801915a",
+            "2cf03556b6a4df6a",
+            "8ec5adeec951a208",
+            "e0daf8f1d9f0d0e1",
+            "63dde43c75a36e28",
+            "21afbd1130357d37",
+            "88115e04554af78d",
+            "88abb953321fafc7",
+            "e36581bd7a7e9185",
+            "293f6faba130e95c",
+            "33d596e29133a830",
+            "29b4fda05cc26d54",
+            "96e5ae15aff282e1",
+            "6bf14e1a81e3c55e",
+            "bf72d5d99758fb8c",
+            "913bd43c8448a395",
+            "3b3be5770f7ef1ea",
+            "1188189ac9ad7b20",
+            "87d8989e6c7fbd34",
+            "c08375cefb4053c2",
+            "8b6a9811f04fe98f",
+            "7f2089101f023b0b",
+            "734d2dcc31ca57fe"
+        ],
+        "x": 54,
+        "y": 2219,
+        "w": 2492,
+        "h": 342
     },
     {
         "id": "4d6f077bf750ed2f",
@@ -310,8 +447,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 230,
-        "y": 180,
+        "x": 150,
+        "y": 100,
         "wires": [
             [
                 "7ff327239d12a45b"
@@ -323,15 +460,15 @@
         "type": "template",
         "z": "f8ebeef9c1111f1b",
         "g": "9b89b6b39d27fee0",
-        "name": "",
+        "name": "signup page",
         "field": "payload",
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"./index.css\" media=\"all\">\n    <script defer src=\"./index.js\">\n    </script>\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n\n        <div class=\"panel\">\n            <a class=\"login-btn\" href=\"../login\">Đăng nhập</a>\n            <a class=\"signup-btn\" href=\"../signup\">Đăng ký</a>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container\">\n            <span class=\"title\">Đăng ký</span>\n            <span class=\"title-logo\">Chiếc hộp an toàn</span>\n            <form action=\"#\" id=\"signupForm\" method=\"post\">\n                <input type=\"text\" name=\"username\" id=\"username\" placeholder=\"tên người dùng\" autocomplete=\"current-password\">\n                <input type=\"email\" name=\"email\" id=\"email\" placeholder=\"email\" autocomplete=\"current-password\">\n                <input type=\"password\" name=\"password\" id=\"password\" placeholder=\"mật khẩu\" autocomplete=\"current-password\">\n                <input type=\"password\" name=\"passwordVerify\" id=\"passwordVerify\" placeholder=\"nhập lại mật khẩu\" autocomplete=\"current-password\">\n                <button type=\"submit\">Gửi</button>\n                <h4 id=\"informError\">{{payload.message}}</h4>\n            </form>\n            <span class=\"current-date\">2024.7.23</span>\n        </div>\n    </div>\n\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n    <title>Home - Safe Box</title>\n    </script>\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n        }\n        .header-logo > a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n        .header-panel {\n            display: flex;\n            column-gap: 20px;\n        }\n        .header-panel > a {\n            text-decoration: none;\n            color: #222;\n            padding: 6px 10px;\n            background-color: #ddd;\n            border-radius: 5px;\n            cursor: pointer;\n            transition: all .5s ease-out;\n            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);\n        }\n        .header-panel > a:hover {\n            background-color: #222;\n            color: #ddd;\n        }\n        .main {\n            width: 100%;\n            height: calc(100vh - 55px);\n            background-color: #f6f3f3;\n            position: relative;\n        }\n        .container {\n            width: 400px;\n            height: auto;\n            position: absolute;\n            transform: translate(-50%, -50%);\n            top: 50%;\n            left: 50%;\n            padding: 0 30px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            border: 1px solid #ccc;\n            border-radius: 8px;\n            \n        }\n        .container > .title {\n            margin-top: 20px;\n            color: var(--primary-color);\n            font-weight: 600;\n            font-size: 1.5rem;\n        }\n        .container > .title-logo {\n            margin-top: 15px;\n            margin-bottom: 10px;\n            color: #888;\n        }\n        #signupForm {\n            display: flex;\n            flex-direction: column;\n            width: 100%;\n        }\n        #signupForm > input {\n            height: 30px;\n            margin-bottom: 20px;\n            padding-left: 10px;\n            font-size: 0.9rem;\n            text-align: center;\n            border: none;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);\n            border-radius: 5px;\n            outline-color: gray;\n        }\n        #signupForm > button {\n            height: 30px;\n            background-color: var(--primary-color);\n            border: none;\n            border-radius: 5px;\n            color: #222;\n            font-size: 1rem;\n            cursor: pointer;\n            transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, transform 0.3s ease-out, box-shadow 0.3s ease-out;\n        }\n        #signupForm > button:hover {\n            background-color: #57a3ff;\n            color: #fff;\n        }\n        #signupForm > button:active {\n            transform: scale(0.95);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);\n        }\n        #informError {\n            color: rgb(235, 94, 94);\n        }\n        .current-date {\n            margin-bottom: 20px;\n        }\n    </style>\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <a href=\"./home\">Chiếc Hộp An Toàn</a>\n        </div>\n\n        <div class=\"header-panel\">\n            <a class=\"login-btn\" href=\"./login\">Đăng nhập</a>\n            <a class=\"signup-btn\" href=\"./signup\">Đăng ký</a>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container\">\n            <span class=\"title\">Đăng ký</span>\n            <span class=\"title-logo\">Chiếc hộp an toàn</span>\n            <form id=\"signupForm\" method=\"post\">\n                <input type=\"text\" name=\"username\" id=\"username\" placeholder=\"tên người dùng\"\n                    autocomplete=\"current-password\">\n                <input type=\"email\" name=\"email\" id=\"email\" placeholder=\"email\" autocomplete=\"current-password\">\n                <input type=\"password\" name=\"password\" id=\"password\" placeholder=\"mật khẩu\"\n                    autocomplete=\"current-password\">\n                <input type=\"password\" name=\"passwordVerify\" id=\"passwordVerify\" placeholder=\"nhập lại mật khẩu\"\n                    autocomplete=\"current-password\">\n                <button type=\"submit\">Gửi</button>\n                <h4 id=\"informError\">{{payload.message}}</h4>\n            </form>\n            <span class=\"current-date\">2024.7.23</span>\n        </div>\n    </div>\n    <script>\n        document.querySelector('#signupForm').addEventListener('submit', (e)=>{\n            const password = document.querySelector('#signupForm > #password');\n            const passwordVerify = document.querySelector('#signupForm > #passwordVerify');\n            if (password.value !== passwordVerify.value) {\n                e.preventDefault();\n                document.querySelector('#informError').innerHTML = \"Mật khẩu xác nhận không chính xác\";\n            }\n        })\n        const date = new Date();\n        const currentDate = date.getFullYear() + '.' + (date.getMonth() + 1) + \".\" + date.getDate();\n        document.querySelector('.current-date').innerHTML = currentDate;\n        setTimeout(() => {\n            document.querySelector('#informError').innerHTML = \"\";\n        }, 4000);\n    </script>\n\n</body>\n\n</html>",
         "output": "str",
-        "x": 420,
-        "y": 180,
+        "x": 350,
+        "y": 100,
         "wires": [
             [
                 "8bf09d2714939881"
@@ -346,8 +483,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 590,
-        "y": 180,
+        "x": 510,
+        "y": 100,
         "wires": []
     },
     {
@@ -360,8 +497,8 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 230,
-        "y": 500,
+        "x": 150,
+        "y": 420,
         "wires": [
             [
                 "eaca73f38a2d0223"
@@ -379,8 +516,8 @@
         "repeatifnull": true,
         "eventType": "value",
         "queries": [],
-        "x": 610,
-        "y": 500,
+        "x": 530,
+        "y": 420,
         "wires": [
             [
                 "1defe0bf82b4b6d5"
@@ -408,8 +545,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 410,
-        "y": 500,
+        "x": 330,
+        "y": 420,
         "wires": [
             [
                 "339b774a46aef51c",
@@ -431,8 +568,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 810,
-        "y": 400,
+        "x": 710,
+        "y": 300,
         "wires": []
     },
     {
@@ -448,8 +585,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
-        "y": 500,
+        "x": 700,
+        "y": 420,
         "wires": [
             [
                 "4e9b5483be7dbe26",
@@ -463,25 +600,21 @@
         "z": "f8ebeef9c1111f1b",
         "g": "5313a101730c2ffe",
         "name": "",
-        "property": "payload.code",
+        "property": "payload.success",
         "propertyType": "msg",
         "rules": [
             {
-                "t": "eq",
-                "v": "201",
-                "vt": "num"
+                "t": "true"
             },
             {
-                "t": "eq",
-                "v": "409",
-                "vt": "num"
+                "t": "false"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 930,
-        "y": 500,
+        "x": 870,
+        "y": 420,
         "wires": [
             [
                 "02ee6a4d331d2ae2"
@@ -501,8 +634,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 220,
-        "y": 700,
+        "x": 140,
+        "y": 620,
         "wires": [
             [
                 "3c34a2b9bdfcea16"
@@ -514,15 +647,15 @@
         "type": "template",
         "z": "f8ebeef9c1111f1b",
         "g": "3520ec35f382b446",
-        "name": "",
+        "name": "login page",
         "field": "payload",
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"./index.css\" media=\"all\">\n    <script defer src=\"./index.js\">\n    </script>\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n\n        <div class=\"panel\">\n            <a class=\"login-btn\" href=\"../login\">Đăng nhập</a>\n            <a class=\"signup-btn\" href=\"../signup\">Đăng ký</a>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container\">\n            <span class=\"title\">Đăng nhập</span>\n            <span class=\"title-logo\">Chiếc hộp an toàn</span>\n            <form id=\"loginForm\" method=\"POST\" name=\"loginForm\">\n                <input type=\"text\" name=\"username\" id=\"username\" placeholder=\"tên người dùng\" autocomplete=\"current-password\">\n                <input type=\"password\" name=\"password\" id=\"password\" placeholder=\"mật khẩu\" autocomplete=\"current-password\">\n                <button type=\"submit\">Gửi</button>\n                <h4 id=\"informError\">{{payload.message}}</h4>\n            </form>\n            <span class=\"current-date\">2024.7.23</span>\n        </div>\n    </div>\n    <script>\n        if ({{payload?.success}}) {\n            window.aleart(\"Đăng ký thành công\")\n        }\n    </script>\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n    <title>Login - Safe Box</title>\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n        }\n\n        .header-logo>a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n\n        .header-panel {\n            display: flex;\n            column-gap: 20px;\n        }\n\n        .header-panel>a {\n            text-decoration: none;\n            color: #222;\n            padding: 6px 10px;\n            background-color: #ddd;\n            border-radius: 5px;\n            cursor: pointer;\n            transition: all .5s ease-out;\n            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);\n        }\n\n        .header-panel>a:hover {\n            background-color: #222;\n            color: #ddd;\n        }\n        .main {\n            width: 100%;\n            height: calc(100vh - 55px);\n            background-color: #f6f3f3;\n            position: relative;\n        }\n        .container {\n            width: 400px;\n            height: auto;\n            position: absolute;\n            transform: translate(-50%, -50%);\n            top: 50%;\n            left: 50%;\n            padding: 0 30px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            border: 1px solid #ccc;\n            border-radius: 8px;\n            \n        }\n        .container > .title {\n            margin-top: 20px;\n            color: var(--primary-color);\n            font-weight: 600;\n            font-size: 1.5rem;\n        }\n        .container > .title-logo {\n            margin-top: 15px;\n            margin-bottom: 20px;\n            color: #888;\n        }\n        #loginForm {\n            display: flex;\n            flex-direction: column;\n            width: 100%;\n        }\n        #loginForm > input {\n            height: 30px;\n            margin-bottom: 20px;\n            padding-left: 10px;\n            font-size: 0.9rem;\n            text-align: center;\n            border: none;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);\n            border-radius: 5px;\n            outline-color: gray;\n        }\n        #loginForm > button {\n            height: 30px;\n            background-color: var(--primary-color);\n            border: none;\n            border-radius: 5px;\n            color: #222;\n            font-size: 1rem;\n            cursor: pointer;\n            transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, transform 0.3s ease-out, box-shadow 0.3s ease-out;\n        }\n        #loginForm > button:hover {\n            background-color: #57a3ff;\n            color: #fff;\n        }\n        #loginForm > button:active {\n            transform: scale(0.95);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);\n        }\n        #informError {\n            color: rgb(235, 94, 94);\n        }\n        .current-date {\n            margin-bottom: 20px;\n        }\n    </style>\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n\n        <div class=\"header-panel\">\n            <a class=\"login-btn\" href=\"../login\">Đăng nhập</a>\n            <a class=\"signup-btn\" href=\"../signup\">Đăng ký</a>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container\">\n            <span class=\"title\">Đăng nhập</span>\n            <span class=\"title-logo\">Chiếc hộp an toàn</span>\n            <form id=\"loginForm\" method=\"POST\">\n                <input type=\"text\" name=\"username\" id=\"username\" placeholder=\"tên người dùng\"\n                    autocomplete=\"current-password\">\n                <input type=\"password\" name=\"password\" id=\"password\" placeholder=\"mật khẩu\"\n                    autocomplete=\"current-password\">\n                <button type=\"submit\">Gửi</button>\n                <h4 id=\"informError\">{{payload.message}}</h4>\n            </form>\n            <span class=\"current-date\">2024.7.23</span>\n        </div>\n    </div>\n    <script>\n        const date = new Date();\n        const currentDate = date.getFullYear() + '.' + (date.getMonth() + 1) + \".\" + date.getDate();\n        document.querySelector('.current-date').innerHTML = currentDate;\n        setTimeout(() => {\n            document.querySelector('#informError').innerHTML = \"\";\n        }, 4000);\n    </script>\n</body>\n\n</html>",
         "output": "str",
-        "x": 520,
-        "y": 700,
+        "x": 370,
+        "y": 620,
         "wires": [
             [
                 "9f4ab41125ca7829"
@@ -537,8 +670,8 @@
         "name": "",
         "statusCode": "200",
         "headers": {},
-        "x": 740,
-        "y": 700,
+        "x": 580,
+        "y": 620,
         "wires": []
     },
     {
@@ -551,54 +684,11 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 250,
-        "y": 1020,
+        "x": 150,
+        "y": 940,
         "wires": [
             [
                 "d7b6ad45c754890a"
-            ]
-        ]
-    },
-    {
-        "id": "020f16057c208895",
-        "type": "change",
-        "z": "f8ebeef9c1111f1b",
-        "g": "5313a101730c2ffe",
-        "name": "Redirect to /login",
-        "rules": [
-            {
-                "t": "set",
-                "p": "statusCode",
-                "pt": "msg",
-                "to": "302",
-                "tot": "num"
-            },
-            {
-                "t": "set",
-                "p": "headers",
-                "pt": "msg",
-                "to": "{}",
-                "tot": "json"
-            },
-            {
-                "t": "set",
-                "p": "headers.location",
-                "pt": "msg",
-                "to": "/login",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1290,
-        "y": 420,
-        "wires": [
-            [
-                "d209717b852b4981",
-                "ac5d4759da7a4673"
             ]
         ]
     },
@@ -610,8 +700,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1470,
-        "y": 460,
+        "x": 1450,
+        "y": 340,
         "wires": []
     },
     {
@@ -624,8 +714,8 @@
         "links": [
             "e736e94f6afa92a0"
         ],
-        "x": 1085,
-        "y": 560,
+        "x": 985,
+        "y": 460,
         "wires": []
     },
     {
@@ -637,8 +727,8 @@
         "links": [
             "d4b35b586c549705"
         ],
-        "x": 265,
-        "y": 240,
+        "x": 185,
+        "y": 160,
         "wires": [
             [
                 "7ff327239d12a45b"
@@ -658,32 +748,14 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1060,
-        "y": 460,
+        "x": 1000,
+        "y": 380,
         "wires": [
             [
-                "020f16057c208895",
-                "7d416e37c1cff1e0"
+                "7d416e37c1cff1e0",
+                "7b31274b30a243ec"
             ]
         ]
-    },
-    {
-        "id": "ac5d4759da7a4673",
-        "type": "debug",
-        "z": "f8ebeef9c1111f1b",
-        "g": "5313a101730c2ffe",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1480,
-        "y": 380,
-        "wires": []
     },
     {
         "id": "7d416e37c1cff1e0",
@@ -696,8 +768,8 @@
         "method": "update",
         "value": "msg.payload",
         "priority": "msg.priority",
-        "x": 1280,
-        "y": 520,
+        "x": 1180,
+        "y": 400,
         "wires": [
             []
         ]
@@ -713,8 +785,8 @@
         "repeatifnull": false,
         "eventType": "value",
         "queries": [],
-        "x": 610,
-        "y": 1020,
+        "x": 510,
+        "y": 940,
         "wires": [
             [
                 "98ebbdfe25244e60"
@@ -742,8 +814,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 430,
-        "y": 1020,
+        "x": 330,
+        "y": 940,
         "wires": [
             [
                 "dae0cc9056b967d6"
@@ -763,8 +835,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
-        "y": 1020,
+        "x": 680,
+        "y": 940,
         "wires": [
             [
                 "743059b29ce03609"
@@ -777,38 +849,25 @@
         "z": "f8ebeef9c1111f1b",
         "g": "5fa0ebb81a1ef25f",
         "name": "",
-        "property": "payload.code",
+        "property": "payload.success",
         "propertyType": "msg",
         "rules": [
             {
-                "t": "eq",
-                "v": "200",
-                "vt": "num"
+                "t": "true"
             },
             {
-                "t": "eq",
-                "v": "404",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "401",
-                "vt": "num"
+                "t": "false"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
-        "x": 910,
-        "y": 1020,
+        "outputs": 2,
+        "x": 810,
+        "y": 940,
         "wires": [
             [
                 "65db88b28da56982",
-                "901accf4ea9847a9",
                 "16881c2f2b0aad64"
-            ],
-            [
-                "c355b49e7cd2f7eb"
             ],
             [
                 "c355b49e7cd2f7eb"
@@ -826,8 +885,8 @@
             "96106cdd2e523a3b",
             "f965615839a86ff9"
         ],
-        "x": 1045,
-        "y": 1100,
+        "x": 955,
+        "y": 1000,
         "wires": []
     },
     {
@@ -839,31 +898,13 @@
         "links": [
             "c355b49e7cd2f7eb"
         ],
-        "x": 225,
-        "y": 760,
+        "x": 235,
+        "y": 680,
         "wires": [
             [
                 "3c34a2b9bdfcea16"
             ]
         ]
-    },
-    {
-        "id": "901accf4ea9847a9",
-        "type": "debug",
-        "z": "f8ebeef9c1111f1b",
-        "g": "5fa0ebb81a1ef25f",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1240,
-        "y": 1100,
-        "wires": []
     },
     {
         "id": "89895093d2f185a7",
@@ -876,8 +917,8 @@
         "method": "update",
         "value": "msg.payload",
         "priority": "msg.priority",
-        "x": 1440,
-        "y": 920,
+        "x": 1240,
+        "y": 880,
         "wires": [
             []
         ]
@@ -895,30 +936,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1240,
-        "y": 920,
+        "x": 1020,
+        "y": 880,
         "wires": [
             [
                 "89895093d2f185a7"
-            ]
-        ]
-    },
-    {
-        "id": "1d557b6c90791027",
-        "type": "http in",
-        "z": "f8ebeef9c1111f1b",
-        "g": "5c604d84a3eb08a8",
-        "name": "",
-        "url": "home",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 140,
-        "y": 1320,
-        "wires": [
-            [
-                "0275261c3e6dcd22",
-                "cf6dcaa6cff70faf"
             ]
         ]
     },
@@ -932,10 +954,10 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n    \n    <link type=\"text/css\" rel=\"stylesheet\" href=\"./index.css\" media=\"all\">\n\n    <script defer src=\"./index.js\">\n        /* OPTIONAL: Put your custom code in that */\n    </script>\n    <!-- #endregion -->\n\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n        <div class=\"nav-bar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"#\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"panel\">\n            \n            <a class=\"login-btn\" href=\"../login\">Đăng nhập</a>\n            <a class=\"signup-btn\" href=\"../signup\">Đăng ký</a>\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"container-left\">\n            <span class=\"big-text\">Chào mừng mọi người đến với website của chúng tôi, hãy cùng nhau trải nghiệm điều thú vị nào!!</span>\n            <h4>Đăng nhập để trải nghiệm ==></h4>\n            <a href=\"../login\">Đăng nhập</a>\n        </div>\n        <div class=\"container-right\">\n            <div>\n                <img src=\"/images/demo1.png\" alt=\"demo1\">\n                <img src=\"/images/demo2.png\" alt=\"demo2\">\n            </div>\n            <div>\n                <img src=\"/images/demo3.png\" alt=\"demo3\">\n                <img src=\"/images/demo4.png\" alt=\"demo4\">\n            </div>\n        </div>\n\n    </div>\n    <div id=\"mything\"></div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n    <script> \n        if ({{payload.success}} === 0) {\n            window.alert({{payload.message}})\n        }\n    </script>\n\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n            text-transform: capitalize;\n        }\n\n        .header-logo>a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n\n        .header-navBar>ul {\n            display: flex;\n            list-style: none;\n            padding-left: 0;\n            column-gap: 20px;\n        }\n\n        .header-navBar li {\n            width: auto;\n            height: auto;\n            transition: all 0.15s ease-in-out;\n            padding: 3px 5px;\n            color: #444;\n            background-color: transparent;\n            border-radius: 8px;\n        }\n\n        .header-navBar li:hover {\n            transform: scale(1.1);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            background-color: rgb(125, 167, 196);\n            border-radius: 5;\n        }\n\n        .header-navBar a {\n            text-decoration: none;\n            color: #444;\n            transition: all 0.15s ease-in-out;\n        }\n\n        .header-navBar a:hover {\n            color: var(#000);\n        }\n\n        .header-panel {\n            display: flex;\n            column-gap: 20px;\n        }\n\n        .header-panel>a {\n            text-decoration: none;\n            color: #222;\n            padding: 6px 10px;\n            background-color: #ddd;\n            border-radius: 5px;\n            cursor: pointer;\n            transition: all .5s ease-out;\n            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);\n        }\n\n        .header-panel>a:hover {\n            background-color: #222;\n            color: #ddd;\n        }\n\n        .container {\n            width: 100%;\n            height: calc(100vh - 55px);\n            display: flex;\n        }\n\n        .container>* {\n            width: 50%;\n        }\n\n        .container-left {\n            padding: 0 30px;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n        }\n\n        .container-left .big-text {\n            font-size: 1.5rem;\n            display: block;\n            text-align: left;\n            margin-bottom: 20px;\n        }\n\n        .container-left a {\n            font-size: 1rem;\n            border: none;\n            background-color: var(--primary-color);\n            color: #222;\n            height: 35px;\n            text-align: center;\n            line-height: 35px;\n            text-decoration: none;\n\n            border-radius: 5px;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n            transition: all 0.3s ease-in-out;\n        }\n\n        .container-left a:hover {\n            background-color: #74b4df;\n            transform: scale(0.95);\n        }\n\n\n        #informError {\n            color: rgb(235, 94, 94);\n        }\n\n        .container-right {\n            width: 50%;\n            height: 100%;\n        }\n\n        .container-right>div {\n            width: 100%;\n            height: 50%;\n            display: flex;\n        }\n\n        .container-right img {\n            width: 50%;\n            height: 100%;\n            object-fit: contain;\n        }\n    </style>\n\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <a href=\"/home\">chiếc hộp an toàn</a>\n        </div>\n        <div class=\"header-navBar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"#\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"header-panel\">\n            <a class=\"login-btn\" href=\"../login\">Đăng nhập</a>\n            <a class=\"signup-btn\" href=\"../signup\">Đăng ký</a>\n\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"container-left\">\n            <span class=\"big-text\">Chào mừng mọi người đến với website của chúng tôi, hãy cùng nhau trải nghiệm điều thú\n                vị nào!!</span>\n            <h4>Đăng nhập để trải nghiệm ==></h4>\n            <a href=\"../login\">Đăng nhập</a>\n        </div>\n        <div class=\"container-right\">\n            <div>\n                <img src=\"/images/demo1.png\" alt=\"demo1\">\n                <img src=\"/images/demo2.png\" alt=\"demo2\">\n            </div>\n            <div>\n                <img src=\"/images/demo3.png\" alt=\"demo3\">\n                <img src=\"/images/demo4.png\" alt=\"demo4\">\n            </div>\n        </div>\n\n    </div>\n    <script>\n        // if ({{ payload.success }} === 1) {\n        //     window.alert('Đăng nhập thành công')\n        // } else {\n        //     window.alert(\"{{payload.message}}\")\n        // }\n    </script>\n\n</body>\n\n</html>",
         "output": "str",
         "x": 1120,
-        "y": 1300,
+        "y": 1200,
         "wires": [
             [
                 "a86a314fe73c881b"
@@ -951,50 +973,8 @@
         "statusCode": "",
         "headers": {},
         "x": 1290,
-        "y": 1340,
+        "y": 1240,
         "wires": []
-    },
-    {
-        "id": "df846795b38ca423",
-        "type": "change",
-        "z": "f8ebeef9c1111f1b",
-        "g": "5fa0ebb81a1ef25f",
-        "name": "Redirect to /home",
-        "rules": [
-            {
-                "t": "set",
-                "p": "statusCode",
-                "pt": "msg",
-                "to": "302",
-                "tot": "num"
-            },
-            {
-                "t": "set",
-                "p": "headers",
-                "pt": "msg",
-                "to": "{}",
-                "tot": "json"
-            },
-            {
-                "t": "set",
-                "p": "headers.location",
-                "pt": "msg",
-                "to": "/home",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1310,
-        "y": 1000,
-        "wires": [
-            [
-                "53636aa05e92ed73"
-            ]
-        ]
     },
     {
         "id": "53636aa05e92ed73",
@@ -1004,8 +984,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1490,
-        "y": 1000,
+        "x": 1470,
+        "y": 940,
         "wires": []
     },
     {
@@ -1018,8 +998,8 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 190,
-        "y": 1740,
+        "x": 150,
+        "y": 1780,
         "wires": [
             [
                 "2ecf9e1178ddb6f1"
@@ -1032,18 +1012,18 @@
         "z": "f8ebeef9c1111f1b",
         "g": "5fa0ebb81a1ef25f",
         "name": "add a cookie",
-        "func": "msg.cookies = {};\n\n\nmsg.cookies['token'] = {\n    value: msg.token, \n    path: \"/\",   \n    expires: new Date(Date.now() + 3600000)\n};\nreturn msg;",
+        "func": "msg.cookies = {};\n\n\nmsg.cookies['token'] = {\n    value: msg.token, \n    path: \"/\",   \n    expires: new Date(Date.now() + 86400000)\n};\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1130,
-        "y": 1000,
+        "x": 1010,
+        "y": 940,
         "wires": [
             [
-                "df846795b38ca423"
+                "393e58d9b1bb4bb0"
             ]
         ]
     },
@@ -1057,10 +1037,10 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"./index.css\" media=\"all\">\n\n    <script defer src=\"./index.js\">\n        /* OPTIONAL: Put your custom code in that */\n    </script>\n    <!-- #endregion -->\n\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n        <div class=\"nav-bar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"#\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"panel\">\n            <div class=\"user-name\">{{payload.data.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"./avatar.png\" alt=\"avatar\">\n            </div>\n            <a href=\"/logout\">Đăng xuất</a>\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"container-left\">\n            <span class=\"big-text\">Chào mừng mọi người đến với website của chúng tôi, hãy cùng nhau trải nghiệm điều thú vị nào!!</span>\n            <span class=\"big-text\">Chào mừng mọi người đến với website của chúng tôi, hãy cùng nhau trải nghiệm điều thú vị nào!!</span>\n            <form method=\"post\">\n                <input name=\"deviceId\" type=\"text\" placeholder=\"id thiết bị\">\n                <input name=\"devicePassword\" type=\"password\" placeholder=\"mât khẩu thiết bị\">\n                <div class=\"informError\">{{payload.message}}</div>\n                <button type=\"submit\">Bắt đầu</button>\n            </form>\n            <span class=\"small-text\">Hãy nhập id thiết bị và mật khẩu của Chiếc Hộp An toàn của bạn để khám phá các tính năng của nó nhé ❤️❤️❤️</span>\n        </div>\n        <div class=\"container-right\">\n            <div>\n                <img src=\"/images/demo1.png\" alt=\"demo1\">\n                <img src=\"/images/demo2.png\" alt=\"demo2\">\n            </div>\n            <div>\n                <img src=\"/images/demo3.png\" alt=\"demo3\">\n                <img src=\"/images/demo4.png\" alt=\"demo4\">\n            </div>\n        </div>\n\n    </div>\n    <div id=\"mything\"></div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n        <script> \n        if ({{payload.success}} === 1) {\n            window.alert('Đăng nhập thành công')\n        } else {\n            window.alert(\"{{payload.message}}\")\n        }\n    </script>\n\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n            text-transform: capitalize;\n        }\n\n        .header-logo>a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n\n        .header-navBar>ul {\n            display: flex;\n            list-style: none;\n            padding-left: 0;\n            column-gap: 20px;\n        }\n\n        .header-navBar li {\n            width: auto;\n            height: auto;\n            transition: all 0.15s ease-in-out;\n            padding: 3px 5px;\n            color: #444;\n            background-color: transparent;\n            border-radius: 8px;\n        }\n\n        .header-navBar li:hover {\n            transform: scale(1.1);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            background-color: rgb(125, 167, 196);\n            border-radius: 5;\n        }\n\n        .header-navBar a {\n            text-decoration: none;\n            color: #444;\n            transition: all 0.15s ease-in-out;\n        }\n\n        .header-navBar a:hover {\n            color: var(#000);\n        }\n\n        .header-panel {\n            display: flex;\n            align-items: center;\n            column-gap: 20px;\n        }\n\n        .user-name {\n            font-size: 0.95rem;\n        }\n\n        .avatart {\n            width: 40px;\n            height: 40px;\n        }\n\n        .avatart>img {\n            width: 100%;\n            height: 100%;\n            object-fit: contain;\n        }\n\n        .container {\n            width: 100%;\n            height: calc(100vh - 55px);\n            display: flex;\n        }\n\n        .container>* {\n            width: 50%;\n        }\n\n        .container-left {\n            padding: 0 30px;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n        }\n\n        .container-left .big-text {\n            font-size: 1.5rem;\n            display: block;\n            text-align: left;\n            margin-bottom: 20px;\n        }\n\n        .container-left form {\n            width: 80%;\n            display: flex;\n            flex-direction: column;\n            padding: 20px 5px;\n            margin-bottom: 20px;\n        }\n\n        .container-left form input {\n            margin-bottom: 15px;\n            height: 35px;\n            border: none;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n            border-radius: 5px;\n            outline-color: gray;\n            text-align: center;\n            font-size: 0.9rem;\n        }\n\n        .container-left button {\n            font-size: 1rem;\n            border: none;\n            background-color: var(--primary-color);\n            color: #222;\n            height: 35px;\n            border-radius: 5px;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n            transition: all 0.3s ease-in-out;\n        }\n\n        .container-left button:hover {\n            background-color: #74b4df;\n            transform: scale(0.95);\n        }\n        .container-left .small-text {\n            color: #000;\n            font-style: italic;\n            \n        }\n\n        #informError {\n            color: rgb(235, 94, 94);\n        }\n\n        .container-right {\n            width: 50%;\n            height: 100%;\n        }\n\n        .container-right>div {\n            width: 100%;\n            height: 50%;\n            display: flex;\n        }\n\n        .container-right img {\n\n            width: 50%;\n            height: 100%;\n            object-fit: contain;\n        }\n\n    </style>\n\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <a href=\"/home\">chiếc hộp an toàn</a>\n        </div>\n        <div class=\"header-navBar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"#\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"header-panel\">\n            <div class=\"user-name\">{{payload.data.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"images/avatar.png\" alt=\"avatar\">\n            </div>\n            <!-- <a href=\"/logout\">Đăng xuất</a> -->\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"container-left\">\n            <span class=\"big-text\">Chào mừng mọi người đến với website của chúng tôi, hãy cùng nhau trải nghiệm điều thú\n                vị nào!!</span>\n            <form method=\"post\">\n                <input name=\"deviceId\" type=\"text\" placeholder=\"id thiết bị\" autocomplete=\"current-password\">\n                <input name=\"devicePassword\" type=\"password\" placeholder=\"mât khẩu thiết bị\" autocomplete=\"current-password\">\n                <div id=\"informError\">{{payload.message}}</div>\n                <button type=\"submit\">Bắt đầu</button>\n            </form>\n            <span class=\"small-text\">Hãy nhập id thiết bị và mật khẩu của Chiếc Hộp An toàn của bạn để khám phá các tính\n                năng của nó nhé ❤️❤️❤️</span>\n        </div>\n        <div class=\"container-right\">\n            <div>\n                <img src=\"/images/demo1.png\" alt=\"demo1\">\n                <img src=\"/images/demo2.png\" alt=\"demo2\">\n            </div>\n            <div>\n                <img src=\"/images/demo3.png\" alt=\"demo3\">\n                <img src=\"/images/demo4.png\" alt=\"demo4\">\n            </div>\n        </div>\n\n    </div>\n    <script>\n        // if ({{ payload.success }} === 1) {\n        //     window.alert('Đăng nhập thành công')\n        // } else {\n        //     window.alert(\"{{payload.message}}\")\n        // }\n    </script>\n\n</body>\n\n</html>",
         "output": "str",
         "x": 1120,
-        "y": 1380,
+        "y": 1280,
         "wires": [
             [
                 "a86a314fe73c881b"
@@ -1077,8 +1057,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 190,
-        "y": 1540,
+        "x": 150,
+        "y": 1600,
         "wires": [
             [
                 "f067c6e90fa75e0a"
@@ -1093,8 +1073,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 790,
-        "y": 1540,
+        "x": 910,
+        "y": 1600,
         "wires": []
     },
     {
@@ -1110,53 +1090,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 1540,
+        "x": 350,
+        "y": 1600,
         "wires": [
             [
-                "42f4507557a4e89f"
-            ]
-        ]
-    },
-    {
-        "id": "42f4507557a4e89f",
-        "type": "change",
-        "z": "f8ebeef9c1111f1b",
-        "g": "bff3195c456d9d0f",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "statusCode",
-                "pt": "msg",
-                "to": "302",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "headers",
-                "pt": "msg",
-                "to": "{}",
-                "tot": "json"
-            },
-            {
-                "t": "set",
-                "p": "headers.location",
-                "pt": "msg",
-                "to": "/home",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 620,
-        "y": 1540,
-        "wires": [
-            [
-                "3cd32072fbc5ea55"
+                "2e5a6ca0ec15bdfe"
             ]
         ]
     },
@@ -1170,8 +1108,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 340,
-        "y": 2480,
+        "x": 400,
+        "y": 2660,
         "wires": [
             [
                 "e09c79bd0c0acc70"
@@ -1186,8 +1124,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 630,
-        "y": 2480,
+        "x": 690,
+        "y": 2660,
         "wires": []
     },
     {
@@ -1202,8 +1140,8 @@
         "syntax": "mustache",
         "template": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Temperature Monitor</title>\n</head>\n<body>\n  <h1>Temperature Monitor</h1>\n  <p>Current Temperature: <span id=\"temp\">--</span> °C</p>\n\n  <script>\n    var ws = new WebSocket(\"ws://\" + location.host + \"/ws/temp\");\n\n    ws.onmessage = function(event) {\n      var data = JSON.parse(event.data);\n      document.getElementById('temp').innerText = data.temperature;\n    };\n  </script>\n</body>\n</html>\n",
         "output": "str",
-        "x": 500,
-        "y": 2480,
+        "x": 560,
+        "y": 2660,
         "wires": [
             [
                 "13044f9730a4d76e"
@@ -1218,8 +1156,8 @@
         "name": "",
         "server": "c312862d5d82aacb",
         "client": "",
-        "x": 650,
-        "y": 2540,
+        "x": 710,
+        "y": 2720,
         "wires": [
             [
                 "16cc9aac6f20b967"
@@ -1234,8 +1172,8 @@
         "name": "",
         "server": "c312862d5d82aacb",
         "client": "",
-        "x": 1320,
-        "y": 2480,
+        "x": 1380,
+        "y": 2660,
         "wires": []
     },
     {
@@ -1260,8 +1198,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 970,
-        "y": 2480,
+        "x": 1030,
+        "y": 2660,
         "wires": [
             []
         ]
@@ -1279,8 +1217,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1260,
-        "y": 2620,
+        "x": 1320,
+        "y": 2800,
         "wires": [
             [
                 "b5658580f86b75dc"
@@ -1298,8 +1236,8 @@
         "repeatifnull": false,
         "eventType": "value",
         "queries": [],
-        "x": 580,
-        "y": 1740,
+        "x": 540,
+        "y": 1780,
         "wires": [
             [
                 "b4f9edda9934c4b4",
@@ -1328,8 +1266,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 370,
-        "y": 1740,
+        "x": 330,
+        "y": 1780,
         "wires": [
             [
                 "dabd522bbb02a7a8",
@@ -1359,8 +1297,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 210,
-        "y": 1860,
+        "x": 170,
+        "y": 1900,
         "wires": [
             [
                 "12cb4be0faad6c8c"
@@ -1380,8 +1318,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 1860,
+        "x": 320,
+        "y": 1900,
         "wires": [
             [
                 "e12f1d69151325c2"
@@ -1399,8 +1337,8 @@
         "method": "update",
         "value": "msg.payload",
         "priority": "msg.priority",
-        "x": 550,
-        "y": 1860,
+        "x": 510,
+        "y": 1900,
         "wires": [
             []
         ]
@@ -1418,8 +1356,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 760,
-        "y": 1740,
+        "x": 720,
+        "y": 1780,
         "wires": [
             [
                 "6a9e3ed5216c9e2e"
@@ -1439,8 +1377,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 500,
-        "y": 1660,
+        "x": 460,
+        "y": 1700,
         "wires": []
     },
     {
@@ -1456,8 +1394,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 770,
-        "y": 1660,
+        "x": 730,
+        "y": 1700,
         "wires": []
     },
     {
@@ -1470,7 +1408,7 @@
             "2a299fe053c6cd27"
         ],
         "x": 545,
-        "y": 1340,
+        "y": 1240,
         "wires": [
             []
         ]
@@ -1486,7 +1424,7 @@
             "a77bb034be993fb9"
         ],
         "x": 965,
-        "y": 1380,
+        "y": 1280,
         "wires": [
             [
                 "9b820593bef13348"
@@ -1516,8 +1454,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 930,
-        "y": 1740,
+        "x": 890,
+        "y": 1780,
         "wires": [
             [
                 "ff6738592e867531"
@@ -1526,41 +1464,6 @@
                 "a77bb034be993fb9"
             ]
         ]
-    },
-    {
-        "id": "09a241e435a3b0a3",
-        "type": "link in",
-        "z": "f8ebeef9c1111f1b",
-        "g": "8c6fb0fc02b78997",
-        "name": "link in 6",
-        "links": [
-            "50bb499b7134a1ac"
-        ],
-        "x": 875,
-        "y": 1840,
-        "wires": [
-            [
-                "5a7b0edcf997d9eb"
-            ]
-        ]
-    },
-    {
-        "id": "5a7b0edcf997d9eb",
-        "type": "debug",
-        "z": "f8ebeef9c1111f1b",
-        "g": "8c6fb0fc02b78997",
-        "name": "debug 7",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 980,
-        "y": 1880,
-        "wires": []
     },
     {
         "id": "a77bb034be993fb9",
@@ -1572,8 +1475,8 @@
         "links": [
             "bd60ab234ede7a44"
         ],
-        "x": 1055,
-        "y": 1820,
+        "x": 1015,
+        "y": 1860,
         "wires": []
     },
     {
@@ -1587,8 +1490,8 @@
             "d2acaee80f661786",
             "80f0a6d7ff13e8e1"
         ],
-        "x": 1255,
-        "y": 1700,
+        "x": 1215,
+        "y": 1740,
         "wires": []
     },
     {
@@ -1603,7 +1506,7 @@
         "eventType": "value",
         "queries": [],
         "x": 320,
-        "y": 1280,
+        "y": 1180,
         "wires": [
             [
                 "6d6dc84f5378862c"
@@ -1624,7 +1527,7 @@
         "finalize": "",
         "libs": [],
         "x": 820,
-        "y": 1300,
+        "y": 1200,
         "wires": [
             [
                 "099c0f9a1f4d6a2f",
@@ -1654,7 +1557,7 @@
         "to": "",
         "reg": false,
         "x": 510,
-        "y": 1280,
+        "y": 1180,
         "wires": [
             [
                 "be99707bd9085075"
@@ -1672,8 +1575,8 @@
         "repeatifnull": false,
         "eventType": "value",
         "queries": [],
-        "x": 330,
-        "y": 1340,
+        "x": 310,
+        "y": 1240,
         "wires": [
             [
                 "96fd063cbb4b571e"
@@ -1702,7 +1605,7 @@
         "to": "",
         "reg": false,
         "x": 510,
-        "y": 1340,
+        "y": 1240,
         "wires": [
             [
                 "be99707bd9085075"
@@ -1732,7 +1635,7 @@
         "reduceInitType": "num",
         "reduceFixup": "",
         "x": 670,
-        "y": 1300,
+        "y": 1200,
         "wires": [
             [
                 "abfbc740d2e8972e",
@@ -1764,7 +1667,7 @@
         "repair": false,
         "outputs": 2,
         "x": 970,
-        "y": 1320,
+        "y": 1220,
         "wires": [
             [
                 "6b5acdbead53e043"
@@ -1788,8 +1691,8 @@
         "targetType": "full",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 790,
-        "y": 1220,
+        "x": 800,
+        "y": 1120,
         "wires": []
     },
     {
@@ -1806,8 +1709,8 @@
         "targetType": "full",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 970,
-        "y": 1220,
+        "x": 1040,
+        "y": 1120,
         "wires": []
     },
     {
@@ -1819,8 +1722,8 @@
         "links": [
             "c8f1f11f88cc40a6"
         ],
-        "x": 215,
-        "y": 2080,
+        "x": 95,
+        "y": 2100,
         "wires": [
             [
                 "da4231abc30cf933",
@@ -1837,8 +1740,8 @@
         "links": [
             "2a299fe053c6cd27"
         ],
-        "x": 565,
-        "y": 2100,
+        "x": 445,
+        "y": 2120,
         "wires": [
             []
         ]
@@ -1854,8 +1757,8 @@
         "repeatifnull": false,
         "eventType": "value",
         "queries": [],
-        "x": 340,
-        "y": 2040,
+        "x": 220,
+        "y": 2060,
         "wires": [
             [
                 "44b233cd769f7d3e"
@@ -1883,8 +1786,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 530,
-        "y": 2040,
+        "x": 410,
+        "y": 2060,
         "wires": [
             [
                 "3f7d87a451bc7396"
@@ -1902,8 +1805,8 @@
         "repeatifnull": false,
         "eventType": "value",
         "queries": [],
-        "x": 350,
-        "y": 2100,
+        "x": 230,
+        "y": 2120,
         "wires": [
             [
                 "c2d5c5b0fea15e06"
@@ -1931,8 +1834,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 530,
-        "y": 2100,
+        "x": 410,
+        "y": 2120,
         "wires": [
             [
                 "3f7d87a451bc7396"
@@ -1961,8 +1864,8 @@
         "reduceInit": "",
         "reduceInitType": "num",
         "reduceFixup": "",
-        "x": 690,
-        "y": 2060,
+        "x": 570,
+        "y": 2080,
         "wires": [
             [
                 "1da0615f8d31a62d"
@@ -1982,8 +1885,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 850,
-        "y": 2060,
+        "x": 730,
+        "y": 2080,
         "wires": [
             [
                 "1c08bec20379386b"
@@ -2011,8 +1914,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1170,
-        "y": 1760,
+        "x": 1130,
+        "y": 1800,
         "wires": [
             [
                 "c8f1f11f88cc40a6"
@@ -2042,8 +1945,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1010,
-        "y": 2080,
+        "x": 890,
+        "y": 2100,
         "wires": [
             [
                 "0176b30d3e5a073f"
@@ -2063,8 +1966,8 @@
         "links": [
             "bd60ab234ede7a44"
         ],
-        "x": 1115,
-        "y": 2100,
+        "x": 995,
+        "y": 2120,
         "wires": []
     },
     {
@@ -2078,8 +1981,8 @@
         "method": "update",
         "value": "msg.payload",
         "priority": "msg.priority",
-        "x": 1360,
-        "y": 2000,
+        "x": 1240,
+        "y": 2020,
         "wires": [
             [
                 "119cc61c77683d0c"
@@ -2094,8 +1997,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1610,
-        "y": 2000,
+        "x": 1490,
+        "y": 2020,
         "wires": []
     },
     {
@@ -2118,8 +2021,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1160,
-        "y": 2040,
+        "x": 1040,
+        "y": 2060,
         "wires": [
             [
                 "9828a1aa598f93c1"
@@ -2160,400 +2063,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1420,
-        "y": 2120,
+        "x": 1300,
+        "y": 2140,
         "wires": [
             [
                 "d12611326055b2f5"
-            ]
-        ]
-    },
-    {
-        "id": "999815cff53dbfb8",
-        "type": "http in",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "",
-        "url": "/features",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 210,
-        "y": 2280,
-        "wires": [
-            [
-                "0f3c8aacb2cd467a",
-                "0135d05f79751036",
-                "c0d693adad93e818"
-            ]
-        ]
-    },
-    {
-        "id": "93f50f3262210755",
-        "type": "template",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "html",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n\n</head>\n\n<body class=\"uib\">\n\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n        <div class=\"nav-bar\">\n            <ul>\n                <li><a href=\"../home\">Trang chủ</a></li>\n                <li><a href=\"./\">Tính năng</a></li>\n                <li><a href=\"../\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"panel\">\n            <div class=\"user-name\">{{payload.userInfo?.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"./images/avatar.png\" alt=\"avatar\">\n            </div>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container1\">\n            <div class=\"title\">Tần suất mở hộp</div>\n            <ul>\n                <li>\n                    <span class=\"date\">Ngày 18/07/2024</span>\n                    <span class=\"num\">12 lần</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container2\">\n            <div class=\"title\">Nhiệt độ độ ẩm hiện tại</div>\n            <ul>\n                <li>\n                    <span>Nhiệt độ</span>\n                    <span><span id=\"temp\"></span> độ</span>\n                </li>\n                <li>\n                    <span>Độ ẩm</span>\n                    <span><span id=\"humi\"></span> %</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container3\">\n            <div class=\"title\">Lịch sử đổi mật khẩu</div>\n            <ul>\n                <li>Mật khẩu mặc định là 1234</li>\n                <li>Đã thay đổi mật khẩu người dùng vào lúc 4h40p ngày 23/7/2024</li>\n            </ul>\n        </div>\n    </div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n    <script>\n    var ws = new WebSocket(\"ws://\" + location.host + \"/ws/temp\");\n\n    ws.onmessage = function(event) {\n      var data = JSON.parse(event.data);\n      document.getElementById('temp').innerText = data.temperature;\n      document.getElementById('humi').innerText = data.humidity;\n    };\n  </script>\n</body>\n\n</html>",
-        "output": "str",
-        "x": 1600,
-        "y": 2200,
-        "wires": [
-            [
-                "7de014b6bdea2ad9"
-            ]
-        ]
-    },
-    {
-        "id": "7de014b6bdea2ad9",
-        "type": "http response",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 1890,
-        "y": 2280,
-        "wires": []
-    },
-    {
-        "id": "7090b10a1068d52b",
-        "type": "link in",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "link in 9",
-        "links": [
-            "2a299fe053c6cd27"
-        ],
-        "x": 625,
-        "y": 2340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "0f3c8aacb2cd467a",
-        "type": "firebase.once",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "tokens.once()",
-        "firebaseconfig": "4d6f077bf750ed2f",
-        "childpath": "tokens",
-        "repeatifnull": false,
-        "eventType": "value",
-        "queries": [],
-        "x": 420,
-        "y": 2280,
-        "wires": [
-            [
-                "9c602a0986070ff3"
-            ]
-        ]
-    },
-    {
-        "id": "9c602a0986070ff3",
-        "type": "change",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "tokens",
-                "tot": "str",
-                "dc": true
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 610,
-        "y": 2280,
-        "wires": [
-            [
-                "f3022942498742db"
-            ]
-        ]
-    },
-    {
-        "id": "0135d05f79751036",
-        "type": "firebase.once",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "users.once()",
-        "firebaseconfig": "4d6f077bf750ed2f",
-        "childpath": "users",
-        "repeatifnull": false,
-        "eventType": "value",
-        "queries": [],
-        "x": 410,
-        "y": 2340,
-        "wires": [
-            [
-                "2cab5ee70fc419cc"
-            ]
-        ]
-    },
-    {
-        "id": "2cab5ee70fc419cc",
-        "type": "change",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "users",
-                "tot": "str",
-                "dc": true
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 610,
-        "y": 2340,
-        "wires": [
-            [
-                "f3022942498742db"
-            ]
-        ]
-    },
-    {
-        "id": "f3022942498742db",
-        "type": "join",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "",
-        "mode": "custom",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": false,
-        "accumulate": true,
-        "timeout": "",
-        "count": "3",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "num",
-        "reduceFixup": "",
-        "x": 790,
-        "y": 2280,
-        "wires": [
-            [
-                "34ec763d2602440f",
-                "368010e717cff4ce"
-            ]
-        ]
-    },
-    {
-        "id": "34ec763d2602440f",
-        "type": "function",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "function 11",
-        "func": "const token = msg.req.cookies.token;\nconst tokens = msg.payload.tokens;\nconst devices = msg.payload.devices;\nconst users = msg.payload.users;\n\nconst ERROR_AS_A_GUEST = 2;\nconst ERROR_CHUA_CO_DEVICE = 3;\n\n\nif (tokens == undefined || devices == undefined || users == undefined) {\n    msg.payload = {\n        success: 0,\n        message: \"lỗi database khong có một trong 3 users, devices, tokens\",\n        errorId: ERROR_AS_A_GUEST\n    }\n}\nif (token === undefined || token === null) {\n    msg.payload = {\n        success: 0,\n        message: \"chưa có phiên đăng nhập\",\n        errorId: ERROR_AS_A_GUEST\n    }\n} else {\n    const validToken = Object.keys(tokens).find(value => {\n        return value===token;\n    });\n    if (validToken === undefined) {\n        msg.payload = {\n            success: 0,\n            message: 'phiên đăng nhập không có trong database',\n            errorId: ERROR_AS_A_GUEST\n        }\n    } else {\n        const userId = Object.keys(users).find(key => {\n            return key===tokens[token];\n        })\n        if (userId === undefined) {\n            msg.payload = {\n                success:0,\n                message: 'userid ứng với token không tồn tại trong db',\n                errorId: ERROR_AS_A_GUEST\n            }\n        } else {\n            const deviceId = users[userId].deviceId;\n            if (deviceId == undefined) {\n                msg.payload = {\n                    success: 0,\n                    message: \"vui lòng đăng nhập thiết bị trước\",\n                    errorId: ERROR_CHUA_CO_DEVICE\n                }\n            } else {\n                msg.payload = {\n                    success: 1,\n                    userInfo: {\n                        ...users[userId]\n                    },\n                    deviceInfo: {\n                        deviceId,\n                        ...devices[deviceId]\n                    }\n                }\n            }\n        }\n    }\n}\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 950,
-        "y": 2280,
-        "wires": [
-            [
-                "dc88009134b3b7a3"
-            ]
-        ]
-    },
-    {
-        "id": "368010e717cff4ce",
-        "type": "debug",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "debug 10",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "counter",
-        "x": 980,
-        "y": 2160,
-        "wires": []
-    },
-    {
-        "id": "c0d693adad93e818",
-        "type": "firebase.once",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "devices.once()",
-        "firebaseconfig": "4d6f077bf750ed2f",
-        "childpath": "/devices",
-        "repeatifnull": false,
-        "eventType": "value",
-        "queries": [],
-        "x": 420,
-        "y": 2220,
-        "wires": [
-            [
-                "1ff5a1e1d2ee4be1"
-            ]
-        ]
-    },
-    {
-        "id": "1ff5a1e1d2ee4be1",
-        "type": "change",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "devices",
-                "tot": "str",
-                "dc": true
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 610,
-        "y": 2220,
-        "wires": [
-            [
-                "f3022942498742db"
-            ]
-        ]
-    },
-    {
-        "id": "dc88009134b3b7a3",
-        "type": "switch",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "",
-        "property": "payload.success",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1120,
-        "y": 2260,
-        "wires": [
-            [
-                "01c1e8851eed7fed"
-            ],
-            [
-                "29dee9a57fd409d3"
-            ]
-        ]
-    },
-    {
-        "id": "29dee9a57fd409d3",
-        "type": "switch",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "",
-        "property": "payload.errorId",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1070,
-        "y": 2360,
-        "wires": [
-            [
-                "062307fb46db2e17"
-            ],
-            [
-                "78b8a55eb1a279c5"
-            ]
-        ]
-    },
-    {
-        "id": "062307fb46db2e17",
-        "type": "template",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "html",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n\n</head>\n\n<body class=\"uib\">\n\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n        <div class=\"nav-bar\">\n            <ul>\n                <li><a href=\"../home\">Trang chủ</a></li>\n                <li><a href=\"./\">Tính năng</a></li>\n                <li><a href=\"../\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"panel\">\n            <div class=\"user-name\">Nguyễn Văn An</div>\n            <div class=\"avatart\">\n                <img src=\"./avatar.png\" alt=\"avatar\">\n            </div>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container1\">\n            <div class=\"title\">Tần suất mở hộp</div>\n            <ul>\n                <li>\n                    <span class=\"date\">Ngày 18/07/2024</span>\n                    <span class=\"num\">12 lần</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container2\">\n            <div class=\"title\">Nhiệt độ độ ẩm hiện tại</div>\n            <ul>\n                <li>\n                    <span>Nhiệt độ</span>\n                    <span>34 độ</span>\n                </li>\n                <li>\n                    <span>Độ ẩm</span>\n                    <span>43%</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container3\">\n            <div class=\"title\">Lịch sử đổi mật khẩu</div>\n            <ul>\n                <li>Mật khẩu mặc định là 1234</li>\n                <li>Đã thay đổi mật khẩu người dùng vào lúc 4h40p ngày 23/7/2024</li>\n            </ul>\n        </div>\n    </div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n    <script>window.alert(\"Bạn chưa đăng nhập tài khoản người dùng, vui lòng đăng nhập trước\"); window.location.href = \"/login\";</script>\n\n</body>\n\n</html>",
-        "output": "str",
-        "x": 1660,
-        "y": 2280,
-        "wires": [
-            [
-                "7de014b6bdea2ad9"
-            ]
-        ]
-    },
-    {
-        "id": "78b8a55eb1a279c5",
-        "type": "template",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "html",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n\n</head>\n\n<body class=\"uib\">\n\n    <div class=\"header\">\n        <div class=\"logo\">\n            <span>Chiếc Hộp An Toàn</span>\n        </div>\n        <div class=\"nav-bar\">\n            <ul>\n                <li><a href=\"../home\">Trang chủ</a></li>\n                <li><a href=\"./\">Tính năng</a></li>\n                <li><a href=\"../\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"panel\">\n            <div class=\"user-name\">Nguyễn Văn An</div>\n            <div class=\"avatart\">\n                <img src=\"./avatar.png\" alt=\"avatar\">\n            </div>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container1\">\n            <div class=\"title\">Tần suất mở hộp</div>\n            <ul>\n                <li>\n                    <span class=\"date\">Ngày 18/07/2024</span>\n                    <span class=\"num\">12 lần</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container2\">\n            <div class=\"title\">Nhiệt độ độ ẩm hiện tại</div>\n            <ul>\n                <li>\n                    <span>Nhiệt độ</span>\n                    <span>34 độ</span>\n                </li>\n                <li>\n                    <span>Độ ẩm</span>\n                    <span>43%</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container3\">\n            <div class=\"title\">Lịch sử đổi mật khẩu</div>\n            <ul>\n                <li>Mật khẩu mặc định là 1234</li>\n                <li>Đã thay đổi mật khẩu người dùng vào lúc 4h40p ngày 23/7/2024</li>\n            </ul>\n        </div>\n    </div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n    <script>window.alert(\"Bạn chưa đăng nhập tài khoản thiết bị, vui lòng đăng nhập trước\"); window.location.href = \"/home\";</script>\n\n</body>\n\n</html>",
-        "output": "str",
-        "x": 1660,
-        "y": 2360,
-        "wires": [
-            [
-                "7de014b6bdea2ad9"
             ]
         ]
     },
@@ -2568,8 +2082,8 @@
         "atStart": false,
         "eventType": "value",
         "queries": [],
-        "x": 90,
-        "y": 2720,
+        "x": 150,
+        "y": 2900,
         "wires": [
             [
                 "1b5fcb69e818a4a0"
@@ -2598,8 +2112,8 @@
         "reduceInit": "",
         "reduceInitType": "num",
         "reduceFixup": "",
-        "x": 670,
-        "y": 2760,
+        "x": 730,
+        "y": 2940,
         "wires": [
             [
                 "5a6dbe74d1a16cd2"
@@ -2619,8 +2133,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
-        "y": 2680,
+        "x": 870,
+        "y": 2860,
         "wires": [
             [
                 "df27dc7ad9038c84"
@@ -2638,8 +2152,8 @@
         "repeatifnull": false,
         "eventType": "value",
         "queries": [],
-        "x": 400,
-        "y": 2680,
+        "x": 460,
+        "y": 2860,
         "wires": [
             [
                 "43dc6b5b6446f728"
@@ -2667,8 +2181,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
-        "y": 2680,
+        "x": 650,
+        "y": 2860,
         "wires": [
             [
                 "e362b41594eb3b9c"
@@ -2698,8 +2212,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 990,
-        "y": 2680,
+        "x": 1050,
+        "y": 2860,
         "wires": [
             [
                 "0f61c87ddcba021e",
@@ -2724,8 +2238,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "counter",
-        "x": 1060,
-        "y": 2600,
+        "x": 1120,
+        "y": 2780,
         "wires": []
     },
     {
@@ -2742,8 +2256,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "counter",
-        "x": 1180,
-        "y": 2720,
+        "x": 1240,
+        "y": 2900,
         "wires": []
     },
     {
@@ -2760,56 +2274,9 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "counter",
-        "x": 800,
-        "y": 2540,
+        "x": 860,
+        "y": 2720,
         "wires": []
-    },
-    {
-        "id": "cd56280a0995c3e6",
-        "type": "debug",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "debug 14",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "counter",
-        "x": 1850,
-        "y": 2180,
-        "wires": []
-    },
-    {
-        "id": "01c1e8851eed7fed",
-        "type": "change",
-        "z": "f8ebeef9c1111f1b",
-        "g": "090e0867aa9a50d1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "deviceId",
-                "pt": "flow",
-                "to": "payload.deviceInfo.deviceId",
-                "tot": "msg",
-                "dc": true
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1340,
-        "y": 2200,
-        "wires": [
-            [
-                "93f50f3262210755"
-            ]
-        ]
     },
     {
         "id": "1b5fcb69e818a4a0",
@@ -2821,14 +2288,14 @@
         "propertyType": "flow",
         "rules": [
             {
-                "t": "nempty"
+                "t": "nnull"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 250,
-        "y": 2680,
+        "x": 310,
+        "y": 2860,
         "wires": [
             [
                 "973a4c9ea6371475"
@@ -2857,8 +2324,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 2620,
+        "x": 160,
+        "y": 2700,
         "wires": [
             [
                 "1b5fcb69e818a4a0"
@@ -2866,7 +2333,507 @@
         ]
     },
     {
-        "id": "c114bb8792bc490d",
+        "id": "e71e6bfc04970e2b",
+        "type": "link in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "link in 10",
+        "links": [],
+        "x": 145,
+        "y": 2760,
+        "wires": [
+            [
+                "1b5fcb69e818a4a0"
+            ]
+        ]
+    },
+    {
+        "id": "892c95171c4ef229",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "4505c1966160c429",
+        "name": "",
+        "url": "/changeUserPW",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 3140,
+        "wires": [
+            [
+                "ade538498d3b5cdf"
+            ]
+        ]
+    },
+    {
+        "id": "ade538498d3b5cdf",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "4505c1966160c429",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"./index.css\" media=\"all\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n            text-transform: capitalize;\n        }\n\n        .header-logo>a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n\n        .header-navBar>ul {\n            display: flex;\n            list-style: none;\n            padding-left: 0;\n            column-gap: 20px;\n        }\n\n        .header-navBar li {\n            width: auto;\n            height: auto;\n            transition: all 0.15s ease-in-out;\n            padding: 3px 5px;\n            color: #444;\n            background-color: transparent;\n            border-radius: 8px;\n        }\n\n        .header-navBar li:hover {\n            transform: scale(1.1);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            background-color: rgb(125, 167, 196);\n            border-radius: 5;\n        }\n\n        .header-navBar a {\n            text-decoration: none;\n            color: #444;\n            transition: all 0.15s ease-in-out;\n        }\n\n        .header-navBar a:hover {\n            color: var(#000);\n        }\n\n        .header-panel {\n            display: flex;\n            align-items: center;\n            column-gap: 20px;\n        }\n\n        .user-name {\n            font-size: 0.95rem;\n        }\n\n        .avatart {\n            width: 40px;\n            height: 40px;\n        }\n\n        .avatart>img {\n            width: 100%;\n            height: 100%;\n            object-fit: contain;\n        }\n\n        .main {\n            width: 100%;\n            height: calc(100vh - 55px);\n            background-color: #f6f3f3;\n            position: relative;\n        }\n\n        .container {\n            width: 400px;\n            height: auto;\n            position: absolute;\n            transform: translate(-50%, -50%);\n            top: 50%;\n            left: 50%;\n            padding: 0 30px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            border: 1px solid #ccc;\n            border-radius: 8px;\n\n        }\n\n        .container>.title {\n            margin-top: 20px;\n            color: var(--primary-color);\n            font-weight: 600;\n            font-size: 1.5rem;\n        }\n\n        .container>.title-logo {\n            margin-top: 15px;\n            margin-bottom: 10px;\n            color: #888;\n        }\n\n        #changeUserPWForm {\n            display: flex;\n            flex-direction: column;\n            width: 100%;\n        }\n\n        #changeUserPWForm>input {\n            height: 30px;\n            margin-bottom: 20px;\n            padding-left: 10px;\n            font-size: 0.9rem;\n            text-align: center;\n            border: none;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);\n            border-radius: 5px;\n            outline-color: gray;\n        }\n\n        #changeUserPWForm>button {\n            height: 30px;\n            background-color: var(--primary-color);\n            border: none;\n            border-radius: 5px;\n            color: #222;\n            font-size: 1rem;\n            cursor: pointer;\n            transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, transform 0.3s ease-out, box-shadow 0.3s ease-out;\n        }\n\n        #changeUserPWForm>button:hover {\n            background-color: #57a3ff;\n            color: #fff;\n        }\n\n        #changeUserPWForm>button:active {\n            transform: scale(0.95);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);\n        }\n\n        #informError {\n            color: rgb(235, 94, 94);\n        }\n\n        .current-date {\n            margin-bottom: 20px;\n        }\n    </style>\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <a href=\"/home\">chiếc hộp an toàn</a>\n        </div>\n        <div class=\"header-navBar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"#\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"header-panel\">\n            <div class=\"user-name\">{{payload.data.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"images/avatar.png\" alt=\"avatar\">\n            </div>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container\">\n            <span class=\"title\">Đổi mật khẩu người dùng</span>\n            <span class=\"title-logo\">Chiếc hộp an toàn</span>\n            <form id=\"changeUserPWForm\" method=\"POST\" name=\"changeUserPWForm\">\n                <input type=\"text\" name=\"username\" id=\"username\" placeholder=\"tên người dùng\"\n                    autocomplete=\"current-password\">\n                <input type=\"password\" name=\"password\" id=\"password\" placeholder=\"mật khẩu\"\n                    autocomplete=\"current-password\">\n                <input type=\"password\" name=\"newPassword\" id=\"newPassword\" placeholder=\"mật khẩu mới\"\n                    autocomplete=\"current-password\">\n                <input type=\"password\" name=\"verifyPassword\" id=\"verifyPassword\" placeholder=\"nhập lại mật khẩu mới\"\n                    autocomplete=\"current-password\">\n                <button type=\"submit\">Gửi</button>\n                <h4 id=\"informError\">{{payload.message}}</h4>\n            </form>\n            <span class=\"current-date\">2024.7.23</span>\n        </div>\n    </div>\n    <script>\n        document.querySelector('#changeUserPWForm').addEventListener('submit', (e) => {\n            const password = document.querySelector('#changeUserPWForm > #newPassword');\n            const passwordVerify = document.querySelector('#changeUserPWForm > #verifyPassword');\n            if (password.value !== passwordVerify.value) {\n                e.preventDefault();\n                document.querySelector('#informError').innerHTML = \"Mật khẩu xác nhận không chính xác\";\n                setTimeout(() => {\n                    document.querySelector('#informError').innerHTML = \"\";\n                }, 4000);\n            }\n        })\n        const date = new Date();\n        const currentDate = date.getFullYear() + '.' + (date.getMonth() + 1) + \".\" + date.getDate();\n        document.querySelector('.current-date').innerHTML = currentDate;\n        setTimeout(() => {\n            document.querySelector('#informError').innerHTML = \"\";\n        }, 4000);\n    </script>\n</body>\n\n</html>",
+        "output": "str",
+        "x": 420,
+        "y": 3140,
+        "wires": [
+            [
+                "a810f188556fff73"
+            ]
+        ]
+    },
+    {
+        "id": "a810f188556fff73",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "4505c1966160c429",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 600,
+        "y": 3140,
+        "wires": []
+    },
+    {
+        "id": "d1d374253aa5e735",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "b15d83b2db108cab",
+        "name": "",
+        "url": "/changeUserPW",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 200,
+        "y": 3360,
+        "wires": [
+            [
+                "9113f43d2cc06bd8"
+            ]
+        ]
+    },
+    {
+        "id": "9113f43d2cc06bd8",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "b15d83b2db108cab",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "info",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 3360,
+        "wires": [
+            [
+                "ad85a474a650cbc3"
+            ]
+        ]
+    },
+    {
+        "id": "ad85a474a650cbc3",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "b15d83b2db108cab",
+        "name": "users.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "users",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 580,
+        "y": 3360,
+        "wires": [
+            [
+                "9c24f6b401005d8b"
+            ]
+        ]
+    },
+    {
+        "id": "9c24f6b401005d8b",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "b15d83b2db108cab",
+        "name": "function 14",
+        "func": "const users = msg.payload\nconst clientInfo = msg.info;\nconst dbUser = Object.entries(users).find(value=>value[1].username===clientInfo.username);\nif (!dbUser) {\n    msg.payload = {\n        success: 0,\n        message: \"Tên người dùng không tồn tại\"\n    }\n} else {\n    if (dbUser[1].password===clientInfo.password) {\n        msg.payload = {\n            success: 1,\n            message: \"Thay đổi mật khẩu thành công\",\n            userId: dbUser[0],\n            userData: dbUser[1],\n            newPassword: clientInfo.newPassword\n        }\n    } else {\n        msg.payload = {\n            success: 0,\n            message: \"Mật khẩu không chính xác\"\n        }\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 3360,
+        "wires": [
+            [
+                "98e84d84f920040f"
+            ]
+        ]
+    },
+    {
+        "id": "98e84d84f920040f",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "b15d83b2db108cab",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 930,
+        "y": 3360,
+        "wires": [
+            [
+                "42ad81f7d2d271b9"
+            ],
+            [
+                "7c889d43e2858bde"
+            ]
+        ]
+    },
+    {
+        "id": "7c889d43e2858bde",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "b15d83b2db108cab",
+        "name": "function 15",
+        "func": "const userId = msg.payload.userId;\nconst userData = msg.payload.userData;\nconst pwHistory = userData.passwordChangeHistory;\nconst currentDate = new Date(Date.now() + 7 * 3600 * 1000).toISOString().replace(/\\.\\d{3}Z$/, 'Z');\n\n\n\nmsg.payload = {\n    [userId]: {\n        ...userData,\n        passwordChangeHistory: {\n            ...pwHistory,\n            [currentDate]: msg.payload.newPassword\n        },\n        password: msg.payload.newPassword\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 3400,
+        "wires": [
+            [
+                "66931862c8c4c1c8",
+                "ea1cb77d20aba409"
+            ]
+        ]
+    },
+    {
+        "id": "9b024ecae5fb57a2",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "b15d83b2db108cab",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1370,
+        "y": 3420,
+        "wires": []
+    },
+    {
+        "id": "66931862c8c4c1c8",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "b15d83b2db108cab",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<script>\n    window.alert(\"Thay đổi mật khẩu người dùng thành công. Vui lòng đăng nhập lại.\")\n    window.location.href = \"/logout\";\n\n</script>",
+        "output": "str",
+        "x": 1240,
+        "y": 3420,
+        "wires": [
+            [
+                "9b024ecae5fb57a2"
+            ]
+        ]
+    },
+    {
+        "id": "63cfcd5947bc32c0",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "7ff8ef5a3768f3db",
+        "name": "",
+        "url": "/changeDevicePW",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 3760,
+        "wires": [
+            [
+                "3340e65a08fc41e3"
+            ]
+        ]
+    },
+    {
+        "id": "3340e65a08fc41e3",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "7ff8ef5a3768f3db",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "info",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 3760,
+        "wires": [
+            [
+                "8a3ec8f411871a20"
+            ]
+        ]
+    },
+    {
+        "id": "8a3ec8f411871a20",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "7ff8ef5a3768f3db",
+        "name": "users.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "devices",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 600,
+        "y": 3760,
+        "wires": [
+            [
+                "78eca2b335887729"
+            ]
+        ]
+    },
+    {
+        "id": "78eca2b335887729",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "7ff8ef5a3768f3db",
+        "name": "function 16",
+        "func": "const clientInfo = msg.info;\nconst devices = msg.payload;\nconst validDevice = Object.entries(devices).find(([deviceId, deviceData]) => deviceId === clientInfo.deviceId);\n\nif (!validDevice) {\n    msg.payload = {\n        success: 0,\n        message: \"ID thiết bị không tồn tại\"\n    };\n} else {\n    const [deviceId, deviceData] = validDevice;\n    if (deviceData.devicePassword === clientInfo.password) {\n        msg.payload = {\n            success: 1,\n            message: \"Đổi mật khẩu thiết bị thành công\",\n            newPassword: clientInfo.newPassword,\n            deviceData,\n            deviceId\n        };\n    } else {\n        msg.payload = {\n            success: 0,\n            message: \"Mật khẩu không chính xác\"\n        };\n    }\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 3760,
+        "wires": [
+            [
+                "f1adf0aa2be95411",
+                "a81e735317ca4b19"
+            ]
+        ]
+    },
+    {
+        "id": "929f8218831d0662",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "9885fe8525b57c4a",
+        "name": "",
+        "url": "/changeDevicePW",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 3540,
+        "wires": [
+            [
+                "12fe5fa57d2e7a23"
+            ]
+        ]
+    },
+    {
+        "id": "12fe5fa57d2e7a23",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "9885fe8525b57c4a",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"./index.css\" media=\"all\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n            text-transform: capitalize;\n        }\n\n        .header-logo>a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n\n        .header-navBar>ul {\n            display: flex;\n            list-style: none;\n            padding-left: 0;\n            column-gap: 20px;\n        }\n\n        .header-navBar li {\n            width: auto;\n            height: auto;\n            transition: all 0.15s ease-in-out;\n            padding: 3px 5px;\n            color: #444;\n            background-color: transparent;\n            border-radius: 8px;\n        }\n\n        .header-navBar li:hover {\n            transform: scale(1.1);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            background-color: rgb(125, 167, 196);\n            border-radius: 5;\n        }\n\n        .header-navBar a {\n            text-decoration: none;\n            color: #444;\n            transition: all 0.15s ease-in-out;\n        }\n\n        .header-navBar a:hover {\n            color: var(#000);\n        }\n\n        .header-panel {\n            display: flex;\n            align-items: center;\n            column-gap: 20px;\n        }\n\n        .user-name {\n            font-size: 0.95rem;\n        }\n\n        .avatart {\n            width: 40px;\n            height: 40px;\n        }\n\n        .avatart>img {\n            width: 100%;\n            height: 100%;\n            object-fit: contain;\n        }\n\n        .main {\n            width: 100%;\n            height: calc(100vh - 55px);\n            background-color: #f6f3f3;\n            position: relative;\n        }\n\n        .container {\n            width: 400px;\n            height: auto;\n            position: absolute;\n            transform: translate(-50%, -50%);\n            top: 50%;\n            left: 50%;\n            padding: 0 30px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            border: 1px solid #ccc;\n            border-radius: 8px;\n\n        }\n\n        .container>.title {\n            margin-top: 20px;\n            color: var(--primary-color);\n            font-weight: 600;\n            font-size: 1.5rem;\n        }\n\n        .container>.title-logo {\n            margin-top: 15px;\n            margin-bottom: 10px;\n            color: #888;\n        }\n\n        #changeUserPWForm {\n            display: flex;\n            flex-direction: column;\n            width: 100%;\n        }\n\n        #changeUserPWForm>input {\n            height: 30px;\n            margin-bottom: 20px;\n            padding-left: 10px;\n            font-size: 0.9rem;\n            text-align: center;\n            border: none;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);\n            border-radius: 5px;\n            outline-color: gray;\n        }\n\n        #changeUserPWForm>button {\n            height: 30px;\n            background-color: var(--primary-color);\n            border: none;\n            border-radius: 5px;\n            color: #222;\n            font-size: 1rem;\n            cursor: pointer;\n            transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, transform 0.3s ease-out, box-shadow 0.3s ease-out;\n        }\n\n        #changeUserPWForm>button:hover {\n            background-color: #57a3ff;\n            color: #fff;\n        }\n\n        #changeUserPWForm>button:active {\n            transform: scale(0.95);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);\n        }\n\n        #informError {\n            color: rgb(235, 94, 94);\n        }\n\n        .current-date {\n            margin-bottom: 20px;\n        }\n    </style>\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <a href=\"/home\">chiếc hộp an toàn</a>\n        </div>\n        <div class=\"header-navBar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"#\">Liên hệ</a></li>\n                <li><a href=\"#\">Giá cả</a></li>\n            </ul>\n        </div>\n        <div class=\"header-panel\">\n            <div class=\"user-name\">{{payload.data.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"images/avatar.png\" alt=\"avatar\">\n            </div>\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container\">\n            <span class=\"title\">Đổi mật khẩu thiết bị</span>\n            <span class=\"title-logo\">Chiếc hộp an toàn</span>\n            <form id=\"changeUserPWForm\" method=\"POST\" name=\"changeUserPWForm\">\n                <input type=\"text\" name=\"deviceId\" id=\"deviceId\" placeholder=\"id thiết bị\"\n                    autocomplete=\"current-password\">\n                <input type=\"password\" name=\"password\" id=\"password\" placeholder=\"mật khẩu\"\n                    autocomplete=\"current-password\">\n                <input type=\"password\" name=\"newPassword\" id=\"newPassword\" placeholder=\"mật khẩu mới\"\n                    autocomplete=\"current-password\">\n                <input type=\"password\" name=\"verifyPassword\" id=\"verifyPassword\" placeholder=\"nhập lại mật khẩu mới\"\n                    autocomplete=\"current-password\">\n                <button type=\"submit\">Gửi</button>\n                <h4 id=\"informError\">{{payload.message}}</h4>\n            </form>\n            <span class=\"current-date\">2024.7.23</span>\n        </div>\n    </div>\n    <script>\n        document.querySelector('#changeUserPWForm').addEventListener('submit', (e) => {\n            const password = document.querySelector('#changeUserPWForm > #newPassword');\n            const passwordVerify = document.querySelector('#changeUserPWForm > #verifyPassword');\n            if (password.value !== passwordVerify.value) {\n                e.preventDefault();\n                document.querySelector('#informError').innerHTML = \"Mật khẩu xác nhận không chính xác\";\n                setTimeout(() => {\n                    document.querySelector('#informError').innerHTML = \"\";\n                }, 4000);\n            }\n        })\n        const date = new Date();\n        const currentDate = date.getFullYear() + '.' + (date.getMonth() + 1) + \".\" + date.getDate();\n        document.querySelector('.current-date').innerHTML = currentDate;\n        setTimeout(() => {\n            document.querySelector('#informError').innerHTML = \"\";\n        }, 4000);\n    </script>\n</body>\n\n</html>",
+        "output": "str",
+        "x": 460,
+        "y": 3540,
+        "wires": [
+            [
+                "1388203de52b8db4"
+            ]
+        ]
+    },
+    {
+        "id": "1388203de52b8db4",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "9885fe8525b57c4a",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 640,
+        "y": 3540,
+        "wires": []
+    },
+    {
+        "id": "f1adf0aa2be95411",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "7ff8ef5a3768f3db",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 960,
+        "y": 3760,
+        "wires": [
+            [
+                "14a64dd7bb32c802"
+            ],
+            [
+                "2d31c901e05d0a31"
+            ]
+        ]
+    },
+    {
+        "id": "2d31c901e05d0a31",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "7ff8ef5a3768f3db",
+        "name": "function 17",
+        "func": "const deviceId = msg.payload.deviceId;\nconst deviceData = msg.payload.deviceId;\nconst newPassword = msg.payload.newPassword;\nlet passwordChangeHistory = msg.payload.deviceData.passwordChangeHistory;\nif (!passwordChangeHistory) {\n    passwordChangeHistory = {}\n}\nconst currentDate = new Date(Date.now() + 7 * 3600 * 1000).toISOString().replace(/\\.\\d{3}Z$/, 'Z');\nmsg.payload = {\n    [deviceId] : {\n        ...deviceData,\n        devicePassword: newPassword,\n        passwordChangeHistory: {\n            ...passwordChangeHistory,\n            [currentDate]: newPassword\n        }\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 3840,
+        "wires": [
+            [
+                "0ffcb0c3810a64a5",
+                "93e36a4ba5e6f519"
+            ]
+        ]
+    },
+    {
+        "id": "0ffcb0c3810a64a5",
+        "type": "firebase modify",
+        "z": "f8ebeef9c1111f1b",
+        "g": "7ff8ef5a3768f3db",
+        "name": "devices.update()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "devices",
+        "method": "update",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 1350,
+        "y": 3720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "93e36a4ba5e6f519",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "7ff8ef5a3768f3db",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<script>\n    window.alert(\"Đổi mật khẩu thiết bị thành công\");\n    window.location.href = '/changeDevicePW';\n</script>",
+        "output": "str",
+        "x": 1340,
+        "y": 3840,
+        "wires": [
+            [
+                "eee86917250d16b7"
+            ]
+        ]
+    },
+    {
+        "id": "eee86917250d16b7",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "7ff8ef5a3768f3db",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1630,
+        "y": 3820,
+        "wires": []
+    },
+    {
+        "id": "a81e735317ca4b19",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "7ff8ef5a3768f3db",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 3680,
+        "wires": []
+    },
+    {
+        "id": "4658866397506c5d",
         "type": "inject",
         "z": "f8ebeef9c1111f1b",
         "name": "",
@@ -2886,26 +2853,208 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1640,
-        "y": 2520,
+        "x": 380,
+        "y": 3960,
         "wires": [
             [
-                "f86cf6295f346de8"
+                "f975702ee240bdf3"
             ]
         ]
     },
     {
-        "id": "f86cf6295f346de8",
+        "id": "f975702ee240bdf3",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "name": "function 18",
+        "func": "msg.payload = flow.get('deviceId');\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 3960,
+        "wires": [
+            [
+                "c266220e034b98e2"
+            ]
+        ]
+    },
+    {
+        "id": "c266220e034b98e2",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 3960,
+        "wires": []
+    },
+    {
+        "id": "2fb843728801915a",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "",
+        "url": "/features",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 2340,
+        "wires": [
+            [
+                "2cf03556b6a4df6a"
+            ]
+        ]
+    },
+    {
+        "id": "2cf03556b6a4df6a",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "function 19",
+        "func": "msg.token = msg.req.cookies.token\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 2340,
+        "wires": [
+            [
+                "8ec5adeec951a208",
+                "96e5ae15aff282e1"
+            ]
+        ]
+    },
+    {
+        "id": "8ec5adeec951a208",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "",
+        "property": "token",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "null"
+            },
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 450,
+        "y": 2340,
+        "wires": [
+            [
+                "7f2089101f023b0b"
+            ],
+            [
+                "e0daf8f1d9f0d0e1"
+            ]
+        ]
+    },
+    {
+        "id": "e0daf8f1d9f0d0e1",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "tokens.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "tokens",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 600,
+        "y": 2360,
+        "wires": [
+            [
+                "63dde43c75a36e28"
+            ]
+        ]
+    },
+    {
+        "id": "63dde43c75a36e28",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "function 20",
+        "func": "const clientToken = msg.token;\nconst tokens = msg.payload;\nconst dbToken = Object.entries(tokens).find(value=>value[0]===clientToken);\nif (!dbToken) {\n    msg.payload = {\n        success: 0,\n        message: \"chưa có phiên đăng nhập\"\n    }\n} else {\n    msg.payload = {\n        success: 1,\n        message: \"Đã có phiên đăng nhập\",\n        userId: dbToken[1]\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 2360,
+        "wires": [
+            [
+                "21afbd1130357d37",
+                "33d596e29133a830"
+            ]
+        ]
+    },
+    {
+        "id": "21afbd1130357d37",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 910,
+        "y": 2360,
+        "wires": [
+            [
+                "7f2089101f023b0b"
+            ],
+            [
+                "88115e04554af78d"
+            ]
+        ]
+    },
+    {
+        "id": "88115e04554af78d",
         "type": "change",
         "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
         "name": "",
         "rules": [
             {
                 "t": "set",
-                "p": "topic",
-                "pt": "flow",
-                "to": "r32432",
-                "tot": "str"
+                "p": "userId",
+                "pt": "msg",
+                "to": "payload.userId",
+                "tot": "msg"
             }
         ],
         "action": "",
@@ -2913,10 +3062,957 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1810,
+        "x": 1060,
+        "y": 2380,
+        "wires": [
+            [
+                "88abb953321fafc7",
+                "29b4fda05cc26d54"
+            ]
+        ]
+    },
+    {
+        "id": "88abb953321fafc7",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "users.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "users",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 1230,
+        "y": 2380,
+        "wires": [
+            [
+                "e36581bd7a7e9185"
+            ]
+        ]
+    },
+    {
+        "id": "e36581bd7a7e9185",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "function 21",
+        "func": "const userId = msg.userId;\nconst users = msg.payload;\nconst validUser = Object.entries(users).find(value=>value[0]===userId);\nif (!validUser) {\n    msg.payload={\n        success: 0,\n        message: \"userid không tồn tại\"\n    }\n} else {\n    msg.payload = {\n        success: 1,\n        message: \"Tồn tại userid trong db\",\n        userId: userId,\n        userData: validUser[1]\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 2380,
+        "wires": [
+            [
+                "6bf14e1a81e3c55e"
+            ]
+        ]
+    },
+    {
+        "id": "293f6faba130e95c",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1230,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "33d596e29133a830",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 2500,
+        "wires": []
+    },
+    {
+        "id": "29b4fda05cc26d54",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "debug 22",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1210,
         "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "96e5ae15aff282e1",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 2460,
+        "wires": []
+    },
+    {
+        "id": "6bf14e1a81e3c55e",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1550,
+        "y": 2380,
+        "wires": [
+            [
+                "7f2089101f023b0b"
+            ],
+            [
+                "913bd43c8448a395"
+            ]
+        ]
+    },
+    {
+        "id": "bf72d5d99758fb8c",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "devices.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "devices",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 1880,
+        "y": 2400,
+        "wires": [
+            [
+                "3b3be5770f7ef1ea"
+            ]
+        ]
+    },
+    {
+        "id": "913bd43c8448a395",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "userId",
+                "pt": "msg",
+                "to": "payload.userId",
+                "tot": "msg",
+                "dc": true
+            },
+            {
+                "t": "set",
+                "p": "userData",
+                "pt": "msg",
+                "to": "payload.userData",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1700,
+        "y": 2400,
+        "wires": [
+            [
+                "bf72d5d99758fb8c"
+            ]
+        ]
+    },
+    {
+        "id": "3b3be5770f7ef1ea",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "function 22",
+        "func": "const userData = msg.userData;\nconst deviceId = msg.userData.deviceId;\nconst devices = msg.payload;\nif (!deviceId) {\n    msg.payload = {\n        success: 0,\n        message: \"Bạn chưa có thiết bị nào, vui lòng đăng nhập thiết bị trước\"\n    }\n} else {\n    const validDevice = Object.entries(devices).find(value => value[0] === deviceId);\n    if (!validDevice) {\n        msg.payload = {\n            success: 0,\n            message: \"thiết bị của bạn không tồn tại trong db\"\n        }\n    } else {\n        msg.payload = {\n            success: 1,\n            message: \"Show thông tin thiết bị ra\",\n            deviceData: validDevice[1],\n            deviceId\n        }\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2050,
+        "y": 2400,
+        "wires": [
+            [
+                "1188189ac9ad7b20"
+            ]
+        ]
+    },
+    {
+        "id": "1188189ac9ad7b20",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2210,
+        "y": 2400,
+        "wires": [
+            [
+                "734d2dcc31ca57fe"
+            ],
+            [
+                "c08375cefb4053c2"
+            ]
+        ]
+    },
+    {
+        "id": "87d8989e6c7fbd34",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 2470,
+        "y": 2320,
+        "wires": []
+    },
+    {
+        "id": "c08375cefb4053c2",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Features - Safe Box</title>\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n            text-transform: capitalize;\n        }\n\n        .header-logo>a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n\n        .header-navBar>ul {\n            display: flex;\n            list-style: none;\n            padding-left: 0;\n            column-gap: 20px;\n        }\n\n        .header-navBar li {\n            width: auto;\n            height: auto;\n            transition: all 0.15s ease-in-out;\n            padding: 3px 5px;\n            color: #444;\n            background-color: transparent;\n            border-radius: 8px;\n        }\n\n        .header-navBar li:hover {\n            transform: scale(1.1);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            background-color: rgb(125, 167, 196);\n            border-radius: 5;\n        }\n\n        .header-navBar a {\n            text-decoration: none;\n            color: #444;\n            transition: all 0.15s ease-in-out;\n        }\n\n        .header-navBar a:hover {\n            color: var(#000);\n        }\n\n        .header-panel {\n            display: flex;\n            align-items: center;\n            column-gap: 20px;\n        }\n\n        .user-name {\n            font-size: 0.95rem;\n        }\n\n        .avatart {\n            width: 40px;\n            height: 40px;\n        }\n\n        .avatart>img {\n            width: 100%;\n            height: 100%;\n            object-fit: contain;\n        }\n        </style>\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <a href=\"/home\">chiếc hộp an toàn</a>\n        </div>\n        <div class=\"header-navBar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"/changeUserPW\">Đổi mật khẩu người dùng</a></li>\n                <li><a href=\"/changeDevicePW\">Đổi mật khẩu thiết bị</a></li>\n            </ul>\n        </div>\n        <div class=\"header-panel\">\n            <div class=\"user-name\">{{payload.data.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"images/avatar.png\" alt=\"avatar\">\n            </div>\n            <!-- <a href=\"/logout\">Đăng xuất</a> -->\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container1\">\n            <div class=\"title\">Tần suất mở hộp</div>\n            <ul>\n                <li>\n                    <span class=\"date\">Ngày 18/07/2024</span>\n                    <span class=\"num\">12 lần</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container2\">\n            <div class=\"title\">Nhiệt độ độ ẩm hiện tại</div>\n            <ul>\n                <li>\n                    <span>Nhiệt độ</span>\n                    <span><span id=\"temp\"></span> độ</span>\n                </li>\n                <li>\n                    <span>Độ ẩm</span>\n                    <span><span id=\"humi\"></span> %</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container3\">\n            <div class=\"title\">Lịch sử đổi mật khẩu</div>\n            <ul>\n                <li>Mật khẩu mặc định là 1234</li>\n                <li>Đã thay đổi mật khẩu người dùng vào lúc 4h40p ngày 23/7/2024</li>\n            </ul>\n        </div>\n    </div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n    <script>\n    var ws = new WebSocket(\"ws://\" + location.host + \"/ws/temp\");\n\n    ws.onmessage = function(event) {\n      var data = JSON.parse(event.data);\n      document.getElementById('temp').innerText = data.temperature;\n      document.getElementById('humi').innerText = data.humidity;\n    };\n  </script>\n  \n</body>\n\n</html>",
+        "output": "str",
+        "x": 2340,
+        "y": 2420,
+        "wires": [
+            [
+                "8b6a9811f04fe98f"
+            ]
+        ]
+    },
+    {
+        "id": "8b6a9811f04fe98f",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 2470,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "7b31274b30a243ec",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5313a101730c2ffe",
+        "name": "inform and direct to login page",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<script>\n    window.alert(\"Đăng ký tài khoản thành công. Đang chuyển đến trang đăng nhập...\");\n    window.location.href = '/login';\n</script>",
+        "output": "str",
+        "x": 1230,
+        "y": 340,
+        "wires": [
+            [
+                "d209717b852b4981"
+            ]
+        ]
+    },
+    {
+        "id": "393e58d9b1bb4bb0",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5fa0ebb81a1ef25f",
+        "name": "inform and direct to home page",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<script>\n    window.alert(\"Đăng nhập thành công, đang chuyển đến trang chủ...\");\n    window.location.href = '/home';\n</script>",
+        "output": "str",
+        "x": 1250,
+        "y": 940,
+        "wires": [
+            [
+                "53636aa05e92ed73"
+            ]
+        ]
+    },
+    {
+        "id": "7f2089101f023b0b",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "inform and direct to login page",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<script>\n    window.alert(\"Bạn chưa có phiên đăng nhập nào, vui lòng đăng nhập trước.\\nĐang chuyển hướng đến trang đăng nhập...\");\n    window.location.href = \"/login\";\n</script>",
+        "output": "str",
+        "x": 990,
+        "y": 2260,
+        "wires": [
+            [
+                "293f6faba130e95c"
+            ]
+        ]
+    },
+    {
+        "id": "734d2dcc31ca57fe",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "inform and direct to home page",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<script>\n    window.alert(\"Bạn chưa thiết bị nào, vui lòng đăng nhập thiết bị trước.\");\n    window.location.href = \"/home\";\n</script>",
+        "output": "str",
+        "x": 2270,
+        "y": 2320,
+        "wires": [
+            [
+                "87d8989e6c7fbd34"
+            ]
+        ]
+    },
+    {
+        "id": "2e5a6ca0ec15bdfe",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "g": "bff3195c456d9d0f",
+        "name": "inform and direct to login page",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<script>\n    window.alert(\"Đăng xuất thành công.\\nĐang chuyển hướng đến trang đăng nhập...\");\n    window.location.href = \"/login\";\n</script>",
+        "output": "str",
+        "x": 690,
+        "y": 1600,
+        "wires": [
+            [
+                "3cd32072fbc5ea55"
+            ]
+        ]
+    },
+    {
+        "id": "14a64dd7bb32c802",
+        "type": "link out",
+        "z": "f8ebeef9c1111f1b",
+        "g": "7ff8ef5a3768f3db",
+        "name": "link out 10",
+        "mode": "link",
+        "links": [
+            "613e411cb91163c3",
+            "8589bc12f98b9d4d"
+        ],
+        "x": 1065,
+        "y": 3720,
+        "wires": []
+    },
+    {
+        "id": "8589bc12f98b9d4d",
+        "type": "link in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "9885fe8525b57c4a",
+        "name": "link in 11",
+        "links": [
+            "14a64dd7bb32c802"
+        ],
+        "x": 285,
+        "y": 3580,
+        "wires": [
+            [
+                "12fe5fa57d2e7a23"
+            ]
+        ]
+    },
+    {
+        "id": "ea1cb77d20aba409",
+        "type": "firebase modify",
+        "z": "f8ebeef9c1111f1b",
+        "g": "b15d83b2db108cab",
+        "name": "users.update()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "users",
+        "method": "update",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 1260,
+        "y": 3360,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "760acdb2575f7efd",
+        "type": "link in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "4505c1966160c429",
+        "name": "link in 12",
+        "links": [
+            "42ad81f7d2d271b9"
+        ],
+        "x": 285,
+        "y": 3180,
+        "wires": [
+            [
+                "ade538498d3b5cdf"
+            ]
+        ]
+    },
+    {
+        "id": "42ad81f7d2d271b9",
+        "type": "link out",
+        "z": "f8ebeef9c1111f1b",
+        "g": "b15d83b2db108cab",
+        "name": "link out 11",
+        "mode": "link",
+        "links": [
+            "760acdb2575f7efd"
+        ],
+        "x": 1025,
+        "y": 3340,
+        "wires": []
+    },
+    {
+        "id": "3e2369a13ceee24f",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "url": "home",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 1480,
+        "wires": [
+            [
+                "056557ec4f191118"
+            ]
+        ]
+    },
+    {
+        "id": "4256fe092c2c1edb",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "5c604d84a3eb08a8",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 230,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "056557ec4f191118",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "name": "function 23",
+        "func": "msg.token = msg.req.cookies.token;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1480,
+        "wires": [
+            [
+                "d29c30dd344a20e0"
+            ]
+        ]
+    },
+    {
+        "id": "d29c30dd344a20e0",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "property": "token",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "null"
+            },
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 430,
+        "y": 1480,
+        "wires": [
+            [
+                "df447caa80427df4"
+            ],
+            [
+                "730c0bb9c31a1b17"
+            ]
+        ]
+    },
+    {
+        "id": "df447caa80427df4",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "name": "home page as a guest",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n            text-transform: capitalize;\n        }\n\n        .header-logo>a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n\n        .header-navBar>ul {\n            display: flex;\n            list-style: none;\n            padding-left: 0;\n            column-gap: 20px;\n        }\n\n        .header-navBar li {\n            width: auto;\n            height: auto;\n            transition: all 0.15s ease-in-out;\n            padding: 3px 5px;\n            color: #444;\n            background-color: transparent;\n            border-radius: 8px;\n        }\n\n        .header-navBar li:hover {\n            transform: scale(1.1);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            background-color: rgb(125, 167, 196);\n            border-radius: 5;\n        }\n\n        .header-navBar a {\n            text-decoration: none;\n            color: #444;\n            transition: all 0.15s ease-in-out;\n        }\n\n        .header-navBar a:hover {\n            color: var(#000);\n        }\n\n        .header-panel {\n            display: flex;\n            column-gap: 20px;\n        }\n\n        .header-panel>a {\n            text-decoration: none;\n            color: #222;\n            padding: 6px 10px;\n            background-color: #ddd;\n            border-radius: 5px;\n            cursor: pointer;\n            transition: all .5s ease-out;\n            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);\n        }\n\n        .header-panel>a:hover {\n            background-color: #222;\n            color: #ddd;\n        }\n\n        .container {\n            width: 100%;\n            height: calc(100vh - 55px);\n            display: flex;\n        }\n\n        .container>* {\n            width: 50%;\n        }\n\n        .container-left {\n            padding: 0 30px;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n        }\n\n        .container-left .big-text {\n            font-size: 1.5rem;\n            display: block;\n            text-align: left;\n            margin-bottom: 20px;\n        }\n\n        .container-left a {\n            font-size: 1rem;\n            border: none;\n            background-color: var(--primary-color);\n            color: #222;\n            height: 35px;\n            text-align: center;\n            line-height: 35px;\n            text-decoration: none;\n\n            border-radius: 5px;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n            transition: all 0.3s ease-in-out;\n        }\n\n        .container-left a:hover {\n            background-color: #74b4df;\n            transform: scale(0.95);\n        }\n\n\n        #informError {\n            color: rgb(235, 94, 94);\n        }\n\n        .container-right {\n            width: 50%;\n            height: 100%;\n        }\n\n        .container-right>div {\n            width: 100%;\n            height: 50%;\n            display: flex;\n        }\n\n        .container-right img {\n            width: 50%;\n            height: 100%;\n            object-fit: contain;\n        }\n    </style>\n\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <a href=\"/home\">chiếc hộp an toàn</a>\n        </div>\n        <div class=\"header-navBar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"/changeUserPW\">Đổi mật khẩu người dùng</a></li>\n                <li><a href=\"/changeDevicePW\">Đổi mật khẩu thiết bị</a></li>\n            </ul>\n        </div>\n        <div class=\"header-panel\">\n            <a class=\"login-btn\" href=\"../login\">Đăng nhập</a>\n            <a class=\"signup-btn\" href=\"../signup\">Đăng ký</a>\n\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"container-left\">\n            <span class=\"big-text\">Chào mừng mọi người đến với website của chúng tôi, hãy cùng nhau trải nghiệm điều thú\n                vị nào!!</span>\n            <h4>Đăng nhập để trải nghiệm ==></h4>\n            <a href=\"../login\">Đăng nhập</a>\n        </div>\n        <div class=\"container-right\">\n            <div>\n                <img src=\"/images/demo1.png\" alt=\"demo1\">\n                <img src=\"/images/demo2.png\" alt=\"demo2\">\n            </div>\n            <div>\n                <img src=\"/images/demo3.png\" alt=\"demo3\">\n                <img src=\"/images/demo4.png\" alt=\"demo4\">\n            </div>\n        </div>\n\n    </div>\n    <script>\n        // if ({{ payload.success }} === 1) {\n        //     window.alert('Đăng nhập thành công')\n        // } else {\n        //     window.alert(\"{{payload.message}}\")\n        // }\n    </script>\n\n</body>\n\n</html>",
+        "output": "str",
+        "x": 1460,
+        "y": 1440,
+        "wires": [
+            [
+                "e283b492347f74a4"
+            ]
+        ]
+    },
+    {
+        "id": "e283b492347f74a4",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1710,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "730c0bb9c31a1b17",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "name": "tokens.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "tokens",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 600,
+        "y": 1500,
+        "wires": [
+            [
+                "476488f4a8773d50"
+            ]
+        ]
+    },
+    {
+        "id": "476488f4a8773d50",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "name": "function 24",
+        "func": "const clientToken = msg.token;\nconst tokens = msg.payload;\nconst dbToken = Object.entries(tokens).find(value=>value[0]===clientToken);\nif (!dbToken) {\n    msg.payload = {\n        success: 0,\n        message: \"chưa có phiên đăng nhập\"\n    }\n} else {\n    msg.payload = {\n        success: 1,\n        message: \"Đã có phiên đăng nhập\",\n        userId: dbToken[1]\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1500,
+        "wires": [
+            [
+                "72dc7b2d30598d8d"
+            ]
+        ]
+    },
+    {
+        "id": "72dc7b2d30598d8d",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 910,
+        "y": 1500,
+        "wires": [
+            [
+                "df447caa80427df4"
+            ],
+            [
+                "b33864ebba5dfe53"
+            ]
+        ]
+    },
+    {
+        "id": "b33864ebba5dfe53",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "userId",
+                "pt": "msg",
+                "to": "payload.userId",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1060,
+        "y": 1520,
+        "wires": [
+            [
+                "0f472224336938a7"
+            ]
+        ]
+    },
+    {
+        "id": "0f472224336938a7",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "name": "users.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "users",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 1230,
+        "y": 1520,
+        "wires": [
+            [
+                "208504aa6b6253cd"
+            ]
+        ]
+    },
+    {
+        "id": "208504aa6b6253cd",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "name": "function 25",
+        "func": "const userId = msg.userId;\nconst users = msg.payload;\nconst validUser = Object.entries(users).find(value=>value[0]===userId);\nif (!validUser) {\n    msg.payload={\n        success: 0,\n        message: \"userid không tồn tại\"\n    }\n} else {\n    msg.payload = {\n        success: 1,\n        message: \"Tồn tại userid trong db\",\n        userId: userId,\n        userData: validUser[1]\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 1520,
+        "wires": [
+            [
+                "8bad74dcccc77305"
+            ]
+        ]
+    },
+    {
+        "id": "8bad74dcccc77305",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1550,
+        "y": 1520,
+        "wires": [
+            [
+                "df447caa80427df4"
+            ],
+            [
+                "cbf9c9509ddac810"
+            ]
+        ]
+    },
+    {
+        "id": "cbf9c9509ddac810",
+        "type": "change",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "userId",
+                "pt": "msg",
+                "to": "payload.userId",
+                "tot": "msg",
+                "dc": true
+            },
+            {
+                "t": "set",
+                "p": "userData",
+                "pt": "msg",
+                "to": "payload.userData",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1700,
+        "y": 1540,
+        "wires": [
+            [
+                "40f5bb869f0ba6db"
+            ]
+        ]
+    },
+    {
+        "id": "40f5bb869f0ba6db",
+        "type": "firebase.once",
+        "z": "f8ebeef9c1111f1b",
+        "name": "devices.once()",
+        "firebaseconfig": "4d6f077bf750ed2f",
+        "childpath": "devices",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 1880,
+        "y": 1540,
+        "wires": [
+            [
+                "471bf469d6ddf0eb"
+            ]
+        ]
+    },
+    {
+        "id": "471bf469d6ddf0eb",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "name": "function 26",
+        "func": "const userData = msg.userData;\nconst deviceId = msg.userData.deviceId;\nconst devices = msg.payload;\nif (!deviceId) {\n    msg.payload = {\n        success: 0,\n        message: \"Bạn chưa có thiết bị nào, vui lòng đăng nhập thiết bị trước\",\n        userData\n    }\n} else {\n    const validDevice = Object.entries(devices).find(value => value[0] === deviceId);\n    if (!validDevice) {\n        msg.payload = {\n            success: 0,\n            message: \"thiết bị của bạn không tồn tại trong db\"\n        }\n    } else {\n        msg.payload = {\n            success: 1,\n            message: \"Show thông tin thiết bị ra\",\n            deviceData: validDevice[1],\n            deviceId,\n            userData\n        }\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2050,
+        "y": 1540,
+        "wires": [
+            [
+                "d4ea35ba43c01244"
+            ]
+        ]
+    },
+    {
+        "id": "d4ea35ba43c01244",
+        "type": "switch",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2210,
+        "y": 1540,
+        "wires": [
+            [
+                "954aa0d2068cf1a8"
+            ],
+            [
+                "d06a4ce1c24c0381"
+            ]
+        ]
+    },
+    {
+        "id": "34c294bd5c69a999",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 2470,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "d3d318516faa19d0",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 2590,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "d06a4ce1c24c0381",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n            text-transform: capitalize;\n        }\n\n        .header-logo>a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n\n        .header-navBar>ul {\n            display: flex;\n            list-style: none;\n            padding-left: 0;\n            column-gap: 20px;\n        }\n\n        .header-navBar li {\n            width: auto;\n            height: auto;\n            transition: all 0.15s ease-in-out;\n            padding: 3px 5px;\n            color: #444;\n            background-color: transparent;\n            border-radius: 8px;\n        }\n\n        .header-navBar li:hover {\n            transform: scale(1.1);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            background-color: rgb(125, 167, 196);\n            border-radius: 5;\n        }\n\n        .header-navBar a {\n            text-decoration: none;\n            color: #444;\n            transition: all 0.15s ease-in-out;\n        }\n\n        .header-navBar a:hover {\n            color: var(#000);\n        }\n\n        .header-panel {\n            display: flex;\n            align-items: center;\n            column-gap: 20px;\n        }\n\n        .user-name {\n            font-size: 0.95rem;\n        }\n\n        .avatart {\n            width: 40px;\n            height: 40px;\n        }\n\n        .avatart>img {\n            width: 100%;\n            height: 100%;\n            object-fit: contain;\n        }\n\n        .container {\n            width: 100%;\n            height: calc(100vh - 55px);\n            display: flex;\n        }\n\n        .container>* {\n            width: 50%;\n        }\n\n        .container-left {\n            padding: 0 30px;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n        }\n\n        .container-left .big-text {\n            font-size: 1.5rem;\n            display: block;\n            text-align: left;\n            margin-bottom: 20px;\n        }\n\n        .container-left form {\n            width: 80%;\n            display: flex;\n            flex-direction: column;\n            padding: 20px 5px;\n            margin-bottom: 20px;\n        }\n\n        .container-left form input {\n            margin-bottom: 15px;\n            height: 35px;\n            border: none;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n            border-radius: 5px;\n            outline-color: gray;\n            text-align: center;\n            font-size: 0.9rem;\n        }\n\n        .container-left button {\n            font-size: 1rem;\n            border: none;\n            background-color: var(--primary-color);\n            color: #222;\n            height: 35px;\n            border-radius: 5px;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n            transition: all 0.3s ease-in-out;\n        }\n\n        .container-left button:hover {\n            background-color: #74b4df;\n            transform: scale(0.95);\n        }\n        .container-left .small-text {\n            color: #000;\n            font-style: italic;\n            \n        }\n\n        #informError {\n            color: rgb(235, 94, 94);\n        }\n\n        .container-right {\n            width: 50%;\n            height: 100%;\n        }\n\n        .container-right>div {\n            width: 100%;\n            height: 50%;\n            display: flex;\n        }\n\n        .container-right img {\n\n            width: 50%;\n            height: 100%;\n            object-fit: contain;\n        }\n\n    </style>\n\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <a href=\"/home\">chiếc hộp an toàn</a>\n        </div>\n        <div class=\"header-navBar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"/changeUserPW\">Đổi mật khẩu người dùng</a></li>\n                <li><a href=\"/changeDevicePW\">Đổi mật khẩu thiết bị</a></li>\n            </ul>\n        </div>\n        <div class=\"header-panel\">\n            <div class=\"user-name\">{{payload.userData.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"images/avatar.png\" alt=\"avatar\">\n            </div>\n            <!-- <a href=\"/logout\">Đăng xuất</a> -->\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"container-left\">\n            <span class=\"big-text\">Chào mừng mọi người đến với website của chúng tôi, hãy cùng nhau trải nghiệm điều thú\n                vị nào!!</span>\n            <span>Thiết bị của bạn có Id là: {{payload.deviceId}}</span>\n            <span>Hãy tìm hiểu tính năng của nó nhé:</span>\n            <a href=\"\\features\">Features</a>\n        </div>\n        <div class=\"container-right\">\n            <div>\n                <img src=\"/images/demo1.png\" alt=\"demo1\">\n                <img src=\"/images/demo2.png\" alt=\"demo2\">\n            </div>\n            <div>\n                <img src=\"/images/demo3.png\" alt=\"demo3\">\n                <img src=\"/images/demo4.png\" alt=\"demo4\">\n            </div>\n        </div>\n\n    </div>\n    <script>\n        // if ({{ payload.success }} === 1) {\n        //     window.alert('Đăng nhập thành công')\n        // } else {\n        //     window.alert(\"{{payload.message}}\")\n        // }\n    </script>\n\n</body>\n\n</html>",
+        "output": "str",
+        "x": 2320,
+        "y": 1580,
+        "wires": [
+            [
+                "34c294bd5c69a999"
+            ]
+        ]
+    },
+    {
+        "id": "954aa0d2068cf1a8",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "name": "home as user without own any device",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Blank template - Node-RED uibuilder</title>\n\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n            text-transform: capitalize;\n        }\n\n        .header-logo>a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n\n        .header-navBar>ul {\n            display: flex;\n            list-style: none;\n            padding-left: 0;\n            column-gap: 20px;\n        }\n\n        .header-navBar li {\n            width: auto;\n            height: auto;\n            transition: all 0.15s ease-in-out;\n            padding: 3px 5px;\n            color: #444;\n            background-color: transparent;\n            border-radius: 8px;\n        }\n\n        .header-navBar li:hover {\n            transform: scale(1.1);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            background-color: rgb(125, 167, 196);\n            border-radius: 5;\n        }\n\n        .header-navBar a {\n            text-decoration: none;\n            color: #444;\n            transition: all 0.15s ease-in-out;\n        }\n\n        .header-navBar a:hover {\n            color: var(#000);\n        }\n\n        .header-panel {\n            display: flex;\n            align-items: center;\n            column-gap: 20px;\n        }\n\n        .user-name {\n            font-size: 0.95rem;\n        }\n\n        .avatart {\n            width: 40px;\n            height: 40px;\n        }\n\n        .avatart>img {\n            width: 100%;\n            height: 100%;\n            object-fit: contain;\n        }\n\n        .container {\n            width: 100%;\n            height: calc(100vh - 55px);\n            display: flex;\n        }\n\n        .container>* {\n            width: 50%;\n        }\n\n        .container-left {\n            padding: 0 30px;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n        }\n\n        .container-left .big-text {\n            font-size: 1.5rem;\n            display: block;\n            text-align: left;\n            margin-bottom: 20px;\n        }\n\n        .container-left form {\n            width: 80%;\n            display: flex;\n            flex-direction: column;\n            padding: 20px 5px;\n            margin-bottom: 20px;\n        }\n\n        .container-left form input {\n            margin-bottom: 15px;\n            height: 35px;\n            border: none;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n            border-radius: 5px;\n            outline-color: gray;\n            text-align: center;\n            font-size: 0.9rem;\n        }\n\n        .container-left button {\n            font-size: 1rem;\n            border: none;\n            background-color: var(--primary-color);\n            color: #222;\n            height: 35px;\n            border-radius: 5px;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n            transition: all 0.3s ease-in-out;\n        }\n\n        .container-left button:hover {\n            background-color: #74b4df;\n            transform: scale(0.95);\n        }\n        .container-left .small-text {\n            color: #000;\n            font-style: italic;\n            \n        }\n\n        #informError {\n            color: rgb(235, 94, 94);\n        }\n\n        .container-right {\n            width: 50%;\n            height: 100%;\n        }\n\n        .container-right>div {\n            width: 100%;\n            height: 50%;\n            display: flex;\n        }\n\n        .container-right img {\n\n            width: 50%;\n            height: 100%;\n            object-fit: contain;\n        }\n\n    </style>\n\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <a href=\"/home\">chiếc hộp an toàn</a>\n        </div>\n        <div class=\"header-navBar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"/changeUserPW\">Đổi mật khẩu người dùng</a></li>\n                <li><a href=\"/changeDevicePW\">Đổi mật khẩu thiết bị</a></li>\n            </ul>\n        </div>\n        <div class=\"header-panel\">\n            <div class=\"user-name\">{{payload.userData.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"images/avatar.png\" alt=\"avatar\">\n            </div>\n            <!-- <a href=\"/logout\">Đăng xuất</a> -->\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"container-left\">\n            <span class=\"big-text\">Chào mừng mọi người đến với website của chúng tôi, hãy cùng nhau trải nghiệm điều thú\n                vị nào!!</span>\n            <form method=\"post\">\n                <input name=\"deviceId\" type=\"text\" placeholder=\"id thiết bị\" autocomplete=\"current-password\">\n                <input name=\"devicePassword\" type=\"password\" placeholder=\"mât khẩu thiết bị\" autocomplete=\"current-password\">\n                <div id=\"informError\">{{payload.message}}</div>\n                <button type=\"submit\">Bắt đầu</button>\n            </form>\n            <span class=\"small-text\">Hãy nhập id thiết bị và mật khẩu của Chiếc Hộp An toàn của bạn để khám phá các tính\n                năng của nó nhé ❤️❤️❤️</span>\n        </div>\n        <div class=\"container-right\">\n            <div>\n                <img src=\"/images/demo1.png\" alt=\"demo1\">\n                <img src=\"/images/demo2.png\" alt=\"demo2\">\n            </div>\n            <div>\n                <img src=\"/images/demo3.png\" alt=\"demo3\">\n                <img src=\"/images/demo4.png\" alt=\"demo4\">\n            </div>\n        </div>\n\n    </div>\n    <script>\n    </script>\n\n</body>\n\n</html>",
+        "output": "str",
+        "x": 2350,
+        "y": 1460,
+        "wires": [
+            [
+                "d3d318516faa19d0"
+            ]
+        ]
+    },
+    {
+        "id": "1d557b6c90791027",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "d": true,
+        "g": "5c604d84a3eb08a8",
+        "name": "",
+        "url": "home",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 1220,
+        "wires": [
+            [
+                "0275261c3e6dcd22",
+                "cf6dcaa6cff70faf",
+                "4256fe092c2c1edb"
+            ]
         ]
     }
 ]
