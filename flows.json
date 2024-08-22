@@ -196,25 +196,21 @@
             "13044f9730a4d76e",
             "e09c79bd0c0acc70",
             "0aa651d7105e0019",
-            "01ee62ab4418539a",
             "6e365085405edd56",
             "adc2c6c2b382a995",
-            "e362b41594eb3b9c",
             "5a6dbe74d1a16cd2",
             "973a4c9ea6371475",
-            "43dc6b5b6446f728",
             "df27dc7ad9038c84",
-            "0f61c87ddcba021e",
             "c1229444a0fe5751",
-            "16cc9aac6f20b967",
             "1b5fcb69e818a4a0",
-            "f9f116f25d2361a8",
-            "e71e6bfc04970e2b"
+            "5139945114adf18e",
+            "b6302aebcaf9ad6c",
+            "6746e175b4d15bf4"
         ],
-        "x": 54,
+        "x": 14,
         "y": 2619,
-        "w": 1432,
-        "h": 362
+        "w": 1492,
+        "h": 322
     },
     {
         "id": "182e2555c58d9350",
@@ -418,11 +414,12 @@
             "c08375cefb4053c2",
             "8b6a9811f04fe98f",
             "7f2089101f023b0b",
-            "734d2dcc31ca57fe"
+            "734d2dcc31ca57fe",
+            "030e836db53cea57"
         ],
         "x": 54,
         "y": 2219,
-        "w": 2492,
+        "w": 2552,
         "h": 342
     },
     {
@@ -1156,12 +1153,10 @@
         "name": "",
         "server": "c312862d5d82aacb",
         "client": "",
-        "x": 710,
+        "x": 1170,
         "y": 2720,
         "wires": [
-            [
-                "16cc9aac6f20b967"
-            ]
+            []
         ]
     },
     {
@@ -1172,37 +1167,9 @@
         "name": "",
         "server": "c312862d5d82aacb",
         "client": "",
-        "x": 1380,
-        "y": 2660,
+        "x": 1400,
+        "y": 2740,
         "wires": []
-    },
-    {
-        "id": "01ee62ab4418539a",
-        "type": "inject",
-        "z": "f8ebeef9c1111f1b",
-        "g": "828bd4a1deb18611",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1030,
-        "y": 2660,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "6e365085405edd56",
@@ -1210,15 +1177,15 @@
         "z": "f8ebeef9c1111f1b",
         "g": "828bd4a1deb18611",
         "name": "function 6",
-        "func": "msg.payload = {\n    temperature: msg.payload.dht.temperature,\n    humidity: msg.payload.dht.humidity\n};\nreturn msg;\n",
+        "func": "msg.payload = {\n    temperature: msg.payload.dht.temperature,\n    humidity: msg.payload.dht.humidity,\n    openingFrequency: msg.payload.openingFrequency,\n    listDHT: msg.payload.deviceInfo.dht\n};\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1320,
-        "y": 2800,
+        "x": 1020,
+        "y": 2780,
         "wires": [
             [
                 "b5658580f86b75dc"
@@ -2091,53 +2058,24 @@
         ]
     },
     {
-        "id": "e362b41594eb3b9c",
-        "type": "join",
-        "z": "f8ebeef9c1111f1b",
-        "g": "828bd4a1deb18611",
-        "name": "",
-        "mode": "custom",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": false,
-        "accumulate": true,
-        "timeout": "",
-        "count": "1",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "num",
-        "reduceFixup": "",
-        "x": 730,
-        "y": 2940,
-        "wires": [
-            [
-                "5a6dbe74d1a16cd2"
-            ]
-        ]
-    },
-    {
         "id": "5a6dbe74d1a16cd2",
         "type": "function",
         "z": "f8ebeef9c1111f1b",
         "g": "828bd4a1deb18611",
         "name": "function 12",
-        "func": "const devices = msg.payload.devices;\nconst deviceId = flow.get('deviceId');\nflow.log = deviceId;\nif (devices == undefined) {\n    msg.payload = {\n        message: \"devices trên db không tồn tại\",\n        success: 0\n    }\n} else {\n    if (deviceId == undefined) {\n        msg.payload = {\n            message: \"deviceId trên flow không có\",\n            success: 0\n        }\n    } else {\n        const device = Object.keys(devices).find(key => {\n            return key=deviceId;\n        })\n        if (device == undefined) {\n            msg.payload = {\n                message: \"device trong flow không có trên db\",\n                success: 0\n            }\n        } else {\n            const keys = Object.keys(devices[deviceId].dht);\n            const maxKey = keys.reduce((max, key) => key > max ? key : max, keys[0]);\n            const currentDHT = devices[deviceId].dht[maxKey];\n            msg.payload = {\n                success: 1,\n                deviceInfo: {\n                    deviceId,\n                    ...devices[deviceId]\n                },\n                dht: currentDHT\n            }\n        }\n    }\n}\nreturn msg;",
+        "func": "const devices = msg.payload;\nconst deviceId = flow.get('deviceId');\nflow.log = deviceId;\nif (devices == undefined) {\n    msg.payload = {\n        message: \"devices trên db không tồn tại\",\n        success: 0\n    }\n} else {\n    if (deviceId == undefined) {\n        msg.payload = {\n            message: \"deviceId trên flow không có\",\n            success: 0\n        }\n    } else {\n        const device = Object.keys(devices).find(key => {\n            return key=deviceId;\n        })\n        if (device == undefined) {\n            msg.payload = {\n                message: \"device trong flow không có trên db\",\n                success: 0\n            }\n        } else {\n            const keys = Object.keys(devices[deviceId].dht);\n            const maxKey = keys.reduce((max, key) => key > max ? key : max, keys[0]);\n            const currentDHT = devices[deviceId].dht[maxKey];\n            msg.payload = {\n                success: 1,\n                deviceInfo: {\n                    deviceId,\n                    ...devices[deviceId]\n                },\n                dht: currentDHT,\n                openingFrequency: {\n                    ...devices[deviceId].countPerDay\n                }\n\n            }\n        }\n    }\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
-        "y": 2860,
+        "x": 690,
+        "y": 2840,
         "wires": [
             [
-                "df27dc7ad9038c84"
+                "df27dc7ad9038c84",
+                "5139945114adf18e"
             ]
         ]
     },
@@ -2152,40 +2090,11 @@
         "repeatifnull": false,
         "eventType": "value",
         "queries": [],
-        "x": 460,
-        "y": 2860,
+        "x": 480,
+        "y": 2840,
         "wires": [
             [
-                "43dc6b5b6446f728"
-            ]
-        ]
-    },
-    {
-        "id": "43dc6b5b6446f728",
-        "type": "change",
-        "z": "f8ebeef9c1111f1b",
-        "g": "828bd4a1deb18611",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "devices",
-                "tot": "str",
-                "dc": true
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 650,
-        "y": 2860,
-        "wires": [
-            [
-                "e362b41594eb3b9c"
+                "5a6dbe74d1a16cd2"
             ]
         ]
     },
@@ -2212,35 +2121,16 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1050,
-        "y": 2860,
+        "x": 850,
+        "y": 2820,
         "wires": [
             [
-                "0f61c87ddcba021e",
                 "6e365085405edd56"
             ],
             [
                 "c1229444a0fe5751"
             ]
         ]
-    },
-    {
-        "id": "0f61c87ddcba021e",
-        "type": "debug",
-        "z": "f8ebeef9c1111f1b",
-        "g": "828bd4a1deb18611",
-        "name": "debug 11",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "counter",
-        "x": 1120,
-        "y": 2780,
-        "wires": []
     },
     {
         "id": "c1229444a0fe5751",
@@ -2256,26 +2146,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "counter",
-        "x": 1240,
-        "y": 2900,
-        "wires": []
-    },
-    {
-        "id": "16cc9aac6f20b967",
-        "type": "debug",
-        "z": "f8ebeef9c1111f1b",
-        "g": "828bd4a1deb18611",
-        "name": "debug 13",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "counter",
-        "x": 860,
-        "y": 2720,
+        "x": 1020,
+        "y": 2880,
         "wires": []
     },
     {
@@ -2295,55 +2167,11 @@
         "repair": false,
         "outputs": 1,
         "x": 310,
-        "y": 2860,
+        "y": 2840,
         "wires": [
             [
-                "973a4c9ea6371475"
-            ]
-        ]
-    },
-    {
-        "id": "f9f116f25d2361a8",
-        "type": "inject",
-        "z": "f8ebeef9c1111f1b",
-        "g": "828bd4a1deb18611",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 160,
-        "y": 2700,
-        "wires": [
-            [
-                "1b5fcb69e818a4a0"
-            ]
-        ]
-    },
-    {
-        "id": "e71e6bfc04970e2b",
-        "type": "link in",
-        "z": "f8ebeef9c1111f1b",
-        "g": "828bd4a1deb18611",
-        "name": "link in 10",
-        "links": [],
-        "x": 145,
-        "y": 2760,
-        "wires": [
-            [
-                "1b5fcb69e818a4a0"
+                "973a4c9ea6371475",
+                "6746e175b4d15bf4"
             ]
         ]
     },
@@ -3316,7 +3144,8 @@
                 "734d2dcc31ca57fe"
             ],
             [
-                "c08375cefb4053c2"
+                "c08375cefb4053c2",
+                "030e836db53cea57"
             ]
         ]
     },
@@ -3342,9 +3171,9 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Features - Safe Box</title>\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n            text-transform: capitalize;\n        }\n\n        .header-logo>a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n\n        .header-navBar>ul {\n            display: flex;\n            list-style: none;\n            padding-left: 0;\n            column-gap: 20px;\n        }\n\n        .header-navBar li {\n            width: auto;\n            height: auto;\n            transition: all 0.15s ease-in-out;\n            padding: 3px 5px;\n            color: #444;\n            background-color: transparent;\n            border-radius: 8px;\n        }\n\n        .header-navBar li:hover {\n            transform: scale(1.1);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            background-color: rgb(125, 167, 196);\n            border-radius: 5;\n        }\n\n        .header-navBar a {\n            text-decoration: none;\n            color: #444;\n            transition: all 0.15s ease-in-out;\n        }\n\n        .header-navBar a:hover {\n            color: var(#000);\n        }\n\n        .header-panel {\n            display: flex;\n            align-items: center;\n            column-gap: 20px;\n        }\n\n        .user-name {\n            font-size: 0.95rem;\n        }\n\n        .avatart {\n            width: 40px;\n            height: 40px;\n        }\n\n        .avatart>img {\n            width: 100%;\n            height: 100%;\n            object-fit: contain;\n        }\n        </style>\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <a href=\"/home\">chiếc hộp an toàn</a>\n        </div>\n        <div class=\"header-navBar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"/changeUserPW\">Đổi mật khẩu người dùng</a></li>\n                <li><a href=\"/changeDevicePW\">Đổi mật khẩu thiết bị</a></li>\n            </ul>\n        </div>\n        <div class=\"header-panel\">\n            <div class=\"user-name\">{{payload.data.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"images/avatar.png\" alt=\"avatar\">\n            </div>\n            <!-- <a href=\"/logout\">Đăng xuất</a> -->\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container1\">\n            <div class=\"title\">Tần suất mở hộp</div>\n            <ul>\n                <li>\n                    <span class=\"date\">Ngày 18/07/2024</span>\n                    <span class=\"num\">12 lần</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container2\">\n            <div class=\"title\">Nhiệt độ độ ẩm hiện tại</div>\n            <ul>\n                <li>\n                    <span>Nhiệt độ</span>\n                    <span><span id=\"temp\"></span> độ</span>\n                </li>\n                <li>\n                    <span>Độ ẩm</span>\n                    <span><span id=\"humi\"></span> %</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container3\">\n            <div class=\"title\">Lịch sử đổi mật khẩu</div>\n            <ul>\n                <li>Mật khẩu mặc định là 1234</li>\n                <li>Đã thay đổi mật khẩu người dùng vào lúc 4h40p ngày 23/7/2024</li>\n            </ul>\n        </div>\n    </div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n    <script>\n    var ws = new WebSocket(\"ws://\" + location.host + \"/ws/temp\");\n\n    ws.onmessage = function(event) {\n      var data = JSON.parse(event.data);\n      document.getElementById('temp').innerText = data.temperature;\n      document.getElementById('humi').innerText = data.humidity;\n    };\n  </script>\n  \n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Features - Safe Box</title>\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n            text-transform: capitalize;\n        }\n\n        .header-logo>a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n\n        .header-navBar>ul {\n            display: flex;\n            list-style: none;\n            padding-left: 0;\n            column-gap: 20px;\n        }\n\n        .header-navBar li {\n            width: auto;\n            height: auto;\n            transition: all 0.15s ease-in-out;\n            padding: 3px 5px;\n            color: #444;\n            background-color: transparent;\n            border-radius: 8px;\n        }\n\n        .header-navBar li:hover {\n            transform: scale(1.1);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            background-color: rgb(125, 167, 196);\n            border-radius: 5;\n        }\n\n        .header-navBar a {\n            text-decoration: none;\n            color: #444;\n            transition: all 0.15s ease-in-out;\n        }\n\n        .header-navBar a:hover {\n            color: var(#000);\n        }\n\n        .header-panel {\n            display: flex;\n            align-items: center;\n            column-gap: 20px;\n        }\n\n        .user-name {\n            font-size: 0.95rem;\n        }\n\n        .avatart {\n            width: 40px;\n            height: 40px;\n        }\n\n        .avatart>img {\n            width: 100%;\n            height: 100%;\n            object-fit: contain;\n        }\n        .main {\n            padding: 20px;\n            width: 100%;\n            display: flex;\n            justify-content: space-around;\n            column-gap: 10px;\n        }\n        .main > * {\n            flex: 1;\n            border: 1px solid #aaa;\n            border-radius: 15px;\n            overflow: hidden;\n\n        }\n        .container1 {\n            display: flex;\n            flex-direction: column;\n        }\n        .title {\n            text-align: center;\n            padding-top: 20px;\n            padding-bottom: 20px;\n            background-color: var(--primary-color);\n                        \n        }\n        \n        .container1 > ul {\n            padding-left: 20px;\n            padding-right: 20px;\n        }\n        .container1 > ul > li {\n            display: flex;\n            justify-content: space-between;\n            margin-bottom: 20px;\n        }\n        .container2 > ul {\n            padding-left: 20px;\n            padding-right: 20px;\n            \n        }\n        .container2 > ul > li {\n            margin-bottom: 20px;\n            display: flex;\n            justify-content: space-between;\n        }\n    </style>\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <a href=\"/home\">chiếc hộp an toàn</a>\n        </div>\n        <div class=\"header-navBar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"/changeUserPW\">Đổi mật khẩu người dùng</a></li>\n                <li><a href=\"/changeDevicePW\">Đổi mật khẩu thiết bị</a></li>\n            </ul>\n        </div>\n        <div class=\"header-panel\">\n            <div class=\"user-name\">{{payload.data.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"images/avatar.png\" alt=\"avatar\">\n            </div>\n            <!-- <a href=\"/logout\">Đăng xuất</a> -->\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container1\">\n            <div class=\"title\">Tần suất mở hộp</div>\n            <ul id=\"listopeningFrequency\">\n                <li>\n                    <span class=\"date\"></span>\n                    <span class=\"num\">12 lần</span>\n                </li>\n            </ul>\n        </div>\n        <div class=\"container2\">\n            <div class=\"title\">Nhiệt độ độ ẩm hiện tại</div>\n            <ul>\n                <li>\n                    <span>Nhiệt độ:</span>\n                    <span><span id=\"temp\"></span> độ</span>\n                </li>\n                <li>\n                    <span>Độ ẩm:</span>\n                    <span><span id=\"humi\"></span> %</span>\n                </li>\n                <a href=\"./loadDHThistory\">Xem lịch sử chi tiết</a>\n            </ul>\n        </div>\n        <div class=\"container3\">\n            <div class=\"title\">Lịch sử đổi mật khẩu</div>\n            <ul>\n                <li>Mật khẩu mặc định là 1234</li>\n                <li>Đã thay đổi mật khẩu người dùng vào lúc 4h40p ngày 23/7/2024</li>\n            </ul>\n        </div>\n    </div>\n    <div id=\"more\">\n        <!-- '#more' is used as a parent for dynamic HTML content in examples -->\n    </div>\n    <script>\n        var ws = new WebSocket(\"ws://\" + location.host + \"/ws/temp\");\n\n        ws.onmessage = function (event) {\n            var data = JSON.parse(event.data);\n            document.getElementById('temp').innerText = data.temperature;\n            document.getElementById('humi').innerText = data.humidity;\n            const listOF = Object.entries(data.openingFrequency);\n            document.querySelector('#listopeningFrequency').innerHTML = \"\";\n            for (const [key, value] of listOF) {\n                document.querySelector('#listopeningFrequency').innerHTML += `\n                    <li>\n                        <span class=\"date\">Ngày ${key}</span>\n                        <span class=\"num\">${value} lần</span>\n                    </li>\n                `\n            }\n        };\n        fetch(\"./api/fetchdata\");\n    </script>\n\n</body>\n\n</html>",
         "output": "str",
-        "x": 2340,
+        "x": 2380,
         "y": 2420,
         "wires": [
             [
@@ -3360,7 +3189,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 2470,
+        "x": 2530,
         "y": 2420,
         "wires": []
     },
@@ -4012,6 +3841,186 @@
                 "0275261c3e6dcd22",
                 "cf6dcaa6cff70faf",
                 "4256fe092c2c1edb"
+            ]
+        ]
+    },
+    {
+        "id": "46c94127e2878946",
+        "type": "e-mail",
+        "z": "f8ebeef9c1111f1b",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "",
+        "x": 590,
+        "y": 4100,
+        "wires": []
+    },
+    {
+        "id": "cb29d4886ea6c9d5",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "name": "function 27",
+        "func": "msg = {\n    payload: \"Hello chị hân, chị nhận được email em ko\",\n    to: \"lnhan22@clc.fitus.edu.vn\",\n    topic: \"Test gửi email từ node-red\"\n}\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 4100,
+        "wires": [
+            [
+                "46c94127e2878946"
+            ]
+        ]
+    },
+    {
+        "id": "b84412a95182b927",
+        "type": "inject",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 4100,
+        "wires": [
+            [
+                "cb29d4886ea6c9d5"
+            ]
+        ]
+    },
+    {
+        "id": "030e836db53cea57",
+        "type": "function",
+        "z": "f8ebeef9c1111f1b",
+        "g": "1ee870ba46f18382",
+        "name": "function 28",
+        "func": "flow.set(\"deviceId\", msg.payload.deviceId);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2430,
+        "y": 2380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5139945114adf18e",
+        "type": "debug",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "counter",
+        "x": 1310,
+        "y": 2860,
+        "wires": []
+    },
+    {
+        "id": "b6302aebcaf9ad6c",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "url": "/api/fetchdata",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 2780,
+        "wires": [
+            [
+                "1b5fcb69e818a4a0"
+            ]
+        ]
+    },
+    {
+        "id": "6746e175b4d15bf4",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "g": "828bd4a1deb18611",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 460,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "0562a92334076dd4",
+        "type": "http in",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "url": "/loadDHThistory",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 240,
+        "y": 4240,
+        "wires": [
+            [
+                "2d5e65fd0d9fb411"
+            ]
+        ]
+    },
+    {
+        "id": "f7894cb1d91b3843",
+        "type": "http response",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 4240,
+        "wires": []
+    },
+    {
+        "id": "2d5e65fd0d9fb411",
+        "type": "template",
+        "z": "f8ebeef9c1111f1b",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"../uibuilder/images/node-blue.ico\">\n\n    <title>Features - Safe Box</title>\n    <meta name=\"description\" content=\"Node-RED uibuilder - Blank template\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');\n\n        :root {\n            --primary-color: #428BA2\n        }\n\n        html {\n            font-family: \"Roboto\", sans-serif;\n            font-weight: 400;\n            font-style: normal;\n        }\n\n        body {\n            margin: 0;\n        }\n\n        * {\n            box-sizing: border-box;\n        }\n\n        .header {\n            width: 100%;\n            height: 55px;\n            background-color: var(--primary-color);\n            padding: 0 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .header-logo {\n            cursor: pointer;\n            user-select: none;\n            text-transform: capitalize;\n        }\n\n        .header-logo>a {\n            text-decoration: none;\n            color: #222;\n            font-size: 1.2rem;\n        }\n\n        .header-navBar>ul {\n            display: flex;\n            list-style: none;\n            padding-left: 0;\n            column-gap: 20px;\n        }\n\n        .header-navBar li {\n            width: auto;\n            height: auto;\n            transition: all 0.15s ease-in-out;\n            padding: 3px 5px;\n            color: #444;\n            background-color: transparent;\n            border-radius: 8px;\n        }\n\n        .header-navBar li:hover {\n            transform: scale(1.1);\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            background-color: rgb(125, 167, 196);\n            border-radius: 5;\n        }\n\n        .header-navBar a {\n            text-decoration: none;\n            color: #444;\n            transition: all 0.15s ease-in-out;\n        }\n\n        .header-navBar a:hover {\n            color: var(#000);\n        }\n\n        .header-panel {\n            display: flex;\n            align-items: center;\n            column-gap: 20px;\n        }\n\n        .user-name {\n            font-size: 0.95rem;\n        }\n\n        .avatart {\n            width: 40px;\n            height: 40px;\n        }\n\n        .avatart>img {\n            width: 100%;\n            height: 100%;\n            object-fit: contain;\n        }\n        .main {\n            padding: 20px;\n            width: 100%;\n            display: flex;\n            justify-content: space-around;\n            column-gap: 10px;\n        }\n        .main > * {\n            flex: 1;\n            border: 1px solid #aaa;\n            border-radius: 15px;\n            overflow: hidden;\n\n        }\n        .container1 {\n            display: flex;\n            flex-direction: column;\n        }\n        .title {\n            text-align: center;\n            padding-top: 20px;\n            padding-bottom: 20px;\n            background-color: var(--primary-color);\n                        \n        }\n        \n        .container > ul {\n            padding-left: 20px;\n            padding-right: 20px;\n            width: 100%;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n        }\n        .container > ul > li {\n            display: flex;\n            justify-content: space-between;\n            margin-bottom: 20px;\n            flex-direction: column;\n            width: 400px;\n            border-bottom: 2px solid #aaa;\n        \n        }\n        .dateTime {\n            font-size: 1.2rem;\n            margin-bottom: 10px;\n\n        }\n        .tem {\n            padding-left: 30px;\n            margin-bottom: 10px;\n        }\n        .humi {\n            padding-left: 30px;\n            margin-bottom: 10px;\n            \n        }\n        \n    </style>\n</head>\n\n<body class=\"uib\">\n    <div class=\"header\">\n        <div class=\"header-logo\">\n            <a href=\"/home\">chiếc hộp an toàn</a>\n        </div>\n        <div class=\"header-navBar\">\n            <ul>\n                <li><a href=\"/home\">Trang chủ</a></li>\n                <li><a href=\"/features\">Tính năng</a></li>\n                <li><a href=\"/changeUserPW\">Đổi mật khẩu người dùng</a></li>\n                <li><a href=\"/changeDevicePW\">Đổi mật khẩu thiết bị</a></li>\n            </ul>\n        </div>\n        <div class=\"header-panel\">\n            <div class=\"user-name\">{{payload.data.username}}</div>\n            <div class=\"avatart\">\n                <img src=\"images/avatar.png\" alt=\"avatar\">\n            </div>\n            <!-- <a href=\"/logout\">Đăng xuất</a> -->\n        </div>\n    </div>\n    <div class=\"main\">\n        <div class=\"container\">\n            <div class=\"title\">Lịch sử nhiệt độ độ ẩm</div>\n            <ul id=\"listdht\">\n                <li>\n                    <div class=\"dateTime\">${key}</div>\n                    <div class=\"tem\">${value.temperature}</div>\n                    <div class=\"humi\">${value.humidity}</div>\n                </li>\n            </ul>\n        </div>\n    </div>\n    <script>\n        var ws = new WebSocket(\"ws://\" + location.host + \"/ws/temp\");\n\n        ws.onmessage = function (event) {\n            var data = JSON.parse(event.data);\n            const listOF = Object.entries(data.listDHT);\n            document.querySelector('#listdht').innerHTML = \"\";\n            for (const [key, value] of listOF) {\n                document.querySelector('#listdht').innerHTML += `\n                    <li id=\"listdht\">\n                    <div class=\"dateTime\">${key}</div>\n                    <div class=\"tem\">Nhiệt độ: ${value.temperature}</div>\n                    <div class=\"humi\">Độ ẩm: ${value.humidity}</div>\n                </li>\n                `\n            }\n        };\n        fetch(\"./api/fetchdata\");\n    </script>\n\n</body>\n\n</html>",
+        "output": "str",
+        "x": 540,
+        "y": 4240,
+        "wires": [
+            [
+                "f7894cb1d91b3843"
             ]
         ]
     }

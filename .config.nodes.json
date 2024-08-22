@@ -607,5 +607,26 @@
                 "file": "C:\\Users\\Nguye\\Desktop\\On School\\VLy\\website_version2\\node_modules\\node-red-contrib-uibuilder\\nodes\\uib-list\\customNode.js"
             }
         }
+    },
+    "node-red-node-email": {
+        "name": "node-red-node-email",
+        "version": "3.0.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "email": {
+                "name": "email",
+                "types": [
+                    "e-mail",
+                    "e-mail in",
+                    "e-mail mta"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-node-email",
+                "file": "C:\\Users\\Nguye\\Desktop\\On School\\VLy\\website_version2\\node_modules\\node-red-node-email\\61-email.js"
+            }
+        }
     }
 }
